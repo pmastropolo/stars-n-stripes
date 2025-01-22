@@ -1,0 +1,411 @@
+[
+    {
+        "id": 1,
+        "service_details": {
+            "title": "Stars and Stripes Automotive - Engine Rebuilding & Performance Upgrades",
+            "description": "At Stars and Stripes Automotive LLC, we specialize in restoring power and enhancing the performance of vintage and classic car engines. Our expert technicians are dedicated to bringing your engine back to life with precision rebuilding and upgrading it to meet modern performance standards. Explore our comprehensive engine services below:",
+            "services": [
+                {
+                    "title": "Engine Rebuilding",
+                    "description": "Our meticulous engine rebuilding process restores vintage and classic car engines to their original specifications or better. We disassemble, clean, inspect, and rebuild your engine with precision to ensure optimal performance and reliability."
+                  },
+                  {
+                    "title": "Performance Upgrades",
+                    "description": "Enhance your classic car's performance with custom upgrades. From carburetor tuning to modern ignition systems and high-performance parts, we bring modern performance technology to timeless machines."
+                  },
+                  {
+                    "title": "Cylinder Head Restoration",
+                    "description": "We offer expert cylinder head restoration services, including resurfacing, valve adjustments, and port polishing, to improve your engine's efficiency and power output."
+                  },
+                  {
+                    "title": "Custom Exhaust Systems",
+                    "description": "Upgrade your exhaust system for improved horsepower and a signature sound. We design and install custom exhaust systems tailored to your car's specifications and your preferences."
+                  },
+                  {
+                    "title": "Engine Diagnostics and Tuning",
+                    "description": "Using advanced diagnostic tools, we fine-tune your engine for peak performance and reliability. From fuel system optimization to ignition timing, our tuning services maximize your car's potential."
+                  }
+            ]
+        },
+        "similar_services": [
+            {
+                "id": 4,
+                "title": "Classic Car Detailing and Preservation",
+                "description": "Keep your classic sharp with top-tier detailing and preservation. We make sure your car stays tough and timeless.",
+                "icon": "/assets/img/icon/service-icon-1.svg"
+            },
+            {
+                "id": 2,
+                "title": "Bodywork and Paint Restoration",
+                "description": "Bring back the bold look of your car with expert bodywork and a flawless paint job. We restore your car's strength and style.",
+                "icon": "/assets/img/icon/service-icon-2.svg"
+            },
+            {
+                "id": 3,
+                "title": "Custom Fabrication and Metalwork",
+                "description": "Crafted to last—custom metalwork and fabrication to fix or enhance your ride with precision and power.",
+                "icon": "/assets/img/icon/service-icon-3.svg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "service_details": {
+            "title": "Bodywork and Paint Restoration",
+            "description": "At Stars and Stripes Automotive LLC, we bring timeless beauty back to life with expert bodywork and paint restoration services. Whether your classic car needs rust repair, dent removal, or a complete repaint, our skilled technicians ensure every detail is perfected to preserve the cars vintage charm and enhance its aesthetic appeal.",
+            "services": [
+                {
+                    "title": "Rust Removal and Repair",
+                    "description": "We expertly remove rust and restore structural integrity, preserving your cars original look while ensuring durability and longevity."
+                  },
+                  {
+                    "title": "Dent and Panel Restoration",
+                    "description": "Our technicians repair dents and damaged panels with precision, ensuring your car's body is flawless and ready for a perfect finish."
+                  },
+                  {
+                    "title": "Custom Paint Restoration",
+                    "description": "Revive or reinvent your cars appearance with our custom paint services. We use high-quality materials to achieve a finish thats as stunning as it is durable."
+                  },
+                  {
+                    "title": "Polishing and Clear Coat Refinishing",
+                    "description": "Bring back the shine with expert polishing and clear coat refinishing, protecting your cars paint while enhancing its vibrant finish."
+                  }
+            ]
+        },
+        "similar_services": [
+            {
+                "id": 1,
+                "title": "Engine Rebuilding and Performance Upgrades",
+                "description": "Give your engine new life with powerful rebuilds and performance upgrades. We bring muscle back to your ride.",
+                "icon": "/assets/img/icon/service-icon-1.svg"
+            },
+            {
+                "id": 4,
+                "title": "Classic Car Detailing and Preservation",
+                "description": "Keep your classic sharp with top-tier detailing and preservation. We make sure your car stays tough and timeless.",
+                "icon": "/assets/img/icon/service-icon-1.svg"
+            },
+            {
+                "id": 3,
+                "title": "Custom Fabrication and Metalwork",
+                "description": "Crafted to last—custom metalwork and fabrication to fix or enhance your ride with precision and power.",
+                "icon": "/assets/img/icon/service-icon-3.svg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "service_details": {
+            "title": "Custom Fabrication and Metalwork",
+            "description": "At Stars and Stripes Automotive LLC, we take pride in our custom fabrication and metalwork services, tailored to meet the unique needs of vintage and classic car enthusiasts. From handcrafted parts to precision modifications, we deliver exceptional craftsmanship that enhances your cars aesthetics and performance.",
+            "services": [
+              {
+                "title": "Custom Metal Fabrication",
+                "description": "Our skilled craftsmen design and fabricate custom metal components to exact specifications, ensuring a perfect fit and seamless integration for your classic car."
+              },
+              {
+                "title": "Sheet Metal Repair and Replacement",
+                "description": "We repair or replace damaged sheet metal with precision, restoring your cars body to its original appearance while maintaining structural integrity."
+              },
+              {
+                "title": "Chassis Modifications",
+                "description": "Upgrade your cars foundation with custom chassis modifications, improving performance, stability, and compatibility with modern enhancements."
+              },
+              {
+                "title": "One-of-a-Kind Customizations",
+                "description": "Transform your classic car into a unique masterpiece with bespoke customizations, including unique grilles, bumpers, and other specialty metalwork."
+              }
+            ]
+        },
+        "similar_services": [
+            {
+                "id": 1,
+                "title": "Engine Rebuilding and Performance Upgrades",
+                "description": "Give your engine new life with powerful rebuilds and performance upgrades. We bring muscle back to your ride.",
+                "icon": "/assets/img/icon/service-icon-1.svg"
+            },
+            {
+                "id": 2,
+                "title": "Bodywork and Paint Restoration",
+                "description": "Bring back the bold look of your car with expert bodywork and a flawless paint job. We restore your car's strength and style.",
+                "icon": "/assets/img/icon/service-icon-2.svg"
+            },
+            {
+                "id": 4,
+                "title": "Classic Car Detailing and Preservation",
+                "description": "Keep your classic sharp with top-tier detailing and preservation. We make sure your car stays tough and timeless.",
+                "icon": "/assets/img/icon/service-icon-1.svg"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "service_details": {
+        "title": "Classic Car Detailing and Preservation",
+        "description": "At Stars and Stripes Automotive LLC, we specialize in meticulous detailing and preservation services to maintain the timeless elegance of your vintage and classic vehicles. From gentle cleaning techniques to advanced protective treatments, we ensure your car remains a shining example of automotive history.",
+            "services": [
+            {
+                "title": "Exterior Detailing",
+                "description": "Restore your classic cars luster with professional exterior detailing, including hand washing, paint correction, and waxing for a showroom-quality shine."
+            },
+    {
+      "title": "Interior Restoration Cleaning",
+      "description": "Refresh your cars interior with thorough cleaning and conditioning of upholstery, carpets, and trims, preserving the original beauty of your vintage vehicle."
+    },
+    {
+      "title": "Engine Bay Detailing",
+      "description": "Enhance the appearance and cleanliness of your cars engine bay with precision detailing, removing grease and grime while ensuring components are protected."
+    },
+    {
+      "title": "Protective Coatings and Preservation",
+      "description": "Safeguard your vehicle with advanced protective coatings, such as ceramic or sealants, designed to shield against wear, UV damage, and environmental elements."
+    }
+            ]
+        },
+        "similar_services": [
+            {
+                "id": 1,
+                "title": "Engine Rebuilding and Performance Upgrades",
+                "description": "Give your engine new life with powerful rebuilds and performance upgrades. We bring muscle back to your ride.",
+                "icon": "/assets/img/icon/service-icon-1.svg"
+            },
+            {
+                "id": 2,
+                "title": "Bodywork and Paint Restoration",
+                "description": "Bring back the bold look of your car with expert bodywork and a flawless paint job. We restore your car's strength and style.",
+                "icon": "/assets/img/icon/service-icon-2.svg"
+            },
+            {
+                "id": 3,
+                "title": "Custom Fabrication and Metalwork",
+                "description": "Crafted to last—custom metalwork and fabrication to fix or enhance your ride with precision and power.",
+                "icon": "/assets/img/icon/service-icon-3.svg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "service_details": {
+           "title": "Custom Upholstery and Interior Design",
+  "description": "At Stars and Stripes Automotive LLC, we specialize in transforming the interiors of vintage and classic cars with bespoke upholstery and interior design services. From restoring original materials to creating custom designs, our expert craftsmanship ensures your vehicle’s interior is as iconic as its exterior.",
+  "services": [
+    {
+      "title": "Original Upholstery Restoration",
+      "description": "Preserve the authenticity of your classic car by restoring its original upholstery with period-correct materials and techniques."
+    },
+    {
+      "title": "Custom Interior Design",
+      "description": "Create a one-of-a-kind interior with custom upholstery, stitching, and design elements tailored to your style and your car’s legacy."
+    },
+    {
+      "title": "Leather and Fabric Repairs",
+      "description": "Repair and restore worn or damaged leather, vinyl, and fabric interiors, ensuring a seamless match to your car's original look or custom upgrades."
+    },
+    {
+      "title": "Carpeting and Headliner Replacement",
+      "description": "Refresh your interior with high-quality carpet and headliner replacements that provide durability and complement your car’s design."
+    }
+            ]
+        },
+        "similar_services": [
+            {
+                "id": 1,
+                "title": "Engine Rebuilding and Performance Upgrades",
+                "description": "Give your engine new life with powerful rebuilds and performance upgrades. We bring muscle back to your ride.",
+                "icon": "/assets/img/icon/service-icon-1.svg"
+            },
+            {
+                "id": 2,
+                "title": "Bodywork and Paint Restoration",
+                "description": "Bring back the bold look of your car with expert bodywork and a flawless paint job. We restore your car's strength and style.",
+                "icon": "/assets/img/icon/service-icon-2.svg"
+            },
+            {
+                "id": 3,
+                "title": "Custom Fabrication and Metalwork",
+                "description": "Crafted to last—custom metalwork and fabrication to fix or enhance your ride with precision and power.",
+                "icon": "/assets/img/icon/service-icon-3.svg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "service_details": {
+            "title": "AutoCare Solutions - Tire Services",
+            "description": "At AutoCare Solutions, we understand that your tires are a critical component of your vehicle's performance, safety, and overall driving experience. Our tire services are designed to ensure that your tires are in optimal condition, providing you with the traction, handling, and comfort you deserve. Explore our comprehensive tire services below:",
+            "services": [
+                {
+                    "title": "Tire Rotation",
+                    "description": "Regular tire rotation is essential for even tread wear and longevity. Our technicians will rotate your tires according to your vehicle's specifications, promoting balanced wear patterns and extending the life of your tires."
+                },
+                {
+                    "title": "Tire Balancing",
+                    "description": "Imbalanced tires can lead to uneven wear, vibrations, and handling issues. Our precision tire balancing services ensure that each tire and wheel assembly is balanced, enhancing your vehicle's ride comfort and overall performance."
+                },
+                {
+                    "title": "Wheel Alignment",
+                    "description": "Proper wheel alignment is crucial for maintaining vehicle stability and preventing uneven tire wear. Our advanced alignment equipment and skilled technicians will ensure that your wheels are aligned to manufacturer specifications."
+                },
+                {
+                    "title": "Tire Repair",
+                    "description": "If you've experienced a flat tire or puncture, our tire repair services are here to help. We'll assess the damage and, when possible, perform a professional repair to get you back on the road safely."
+                }
+            ]
+        },
+        "similar_services": [
+            {
+                "id": 1,
+                "title": "Steering Repair",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "icon": "/assets/img/icon/service-icon-1.svg"
+            },
+            {
+                "id": 2,
+                "title": "Bodywork and Paint Restoration",
+                "description": "Bring back the bold look of your car with expert bodywork and a flawless paint job. We restore your car's strength and style.",
+                "icon": "/assets/img/icon/service-icon-2.svg"
+            },
+            {
+                "id": 3,
+                "title": "Custom Fabrication and Metalwork",
+                "description": "Crafted to last—custom metalwork and fabrication to fix or enhance your ride with precision and power.",
+                "icon": "/assets/img/icon/service-icon-3.svg"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "service_details": {
+            "title": "Heating Services",
+            "description": "At AutoCare Solutions, we understand that your tires are a critical component of your vehicle's performance, safety, and overall driving experience. Our tire services are designed to ensure that your tires are in optimal condition, providing you with the traction, handling, and comfort you deserve. Explore our comprehensive tire services below:",
+            "services": [
+                {
+                    "title": "Tire Rotation",
+                    "description": "Regular tire rotation is essential for even tread wear and longevity. Our technicians will rotate your tires according to your vehicle's specifications, promoting balanced wear patterns and extending the life of your tires."
+                },
+                {
+                    "title": "Tire Balancing",
+                    "description": "Imbalanced tires can lead to uneven wear, vibrations, and handling issues. Our precision tire balancing services ensure that each tire and wheel assembly is balanced, enhancing your vehicle's ride comfort and overall performance."
+                },
+                {
+                    "title": "Wheel Alignment",
+                    "description": "Proper wheel alignment is crucial for maintaining vehicle stability and preventing uneven tire wear. Our advanced alignment equipment and skilled technicians will ensure that your wheels are aligned to manufacturer specifications."
+                },
+                {
+                    "title": "Tire Repair",
+                    "description": "If you've experienced a flat tire or puncture, our tire repair services are here to help. We'll assess the damage and, when possible, perform a professional repair to get you back on the road safely."
+                }
+            ]
+        },
+        "similar_services": [
+            {
+                "id": 1,
+                "title": "Diagnostic Services",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "icon": "/assets/img/icon/service-icon-1.svg"
+            },
+            {
+                "id": 2,
+                "title": "Routine Maintenance",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "icon": "/assets/img/icon/service-icon-2.svg"
+            },
+            {
+                "id": 3,
+                "title": "Custom Fabrication and Metalwork",
+                "description": "Crafted to last—custom metalwork and fabrication to fix or enhance your ride with precision and power.",
+                "icon": "/assets/img/icon/service-icon-3.svg"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "service_details": {
+            "title": "Tire Services",
+            "description": "At AutoCare Solutions, we understand that your tires are a critical component of your vehicle's performance, safety, and overall driving experience. Our tire services are designed to ensure that your tires are in optimal condition, providing you with the traction, handling, and comfort you deserve. Explore our comprehensive tire services below:",
+            "services": [
+                {
+                    "title": "Tire Rotation",
+                    "description": "Regular tire rotation is essential for even tread wear and longevity. Our technicians will rotate your tires according to your vehicle's specifications, promoting balanced wear patterns and extending the life of your tires."
+                },
+                {
+                    "title": "Tire Balancing",
+                    "description": "Imbalanced tires can lead to uneven wear, vibrations, and handling issues. Our precision tire balancing services ensure that each tire and wheel assembly is balanced, enhancing your vehicle's ride comfort and overall performance."
+                },
+                {
+                    "title": "Wheel Alignment",
+                    "description": "Proper wheel alignment is crucial for maintaining vehicle stability and preventing uneven tire wear. Our advanced alignment equipment and skilled technicians will ensure that your wheels are aligned to manufacturer specifications."
+                },
+                {
+                    "title": "Tire Repair",
+                    "description": "If you've experienced a flat tire or puncture, our tire repair services are here to help. We'll assess the damage and, when possible, perform a professional repair to get you back on the road safely."
+                }
+            ]
+        },
+        "similar_services": [
+            {
+                "id": 1,
+                "title": "Diagnostic Services",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "icon": "/assets/img/icon/service-icon-1.svg"
+            },
+            {
+                "id": 2,
+                "title": "Routine Maintenance",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "icon": "/assets/img/icon/service-icon-2.svg"
+            },
+            {
+                "id": 3,
+                "title": "Brake System Repair",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "icon": "/assets/img/icon/service-icon-3.svg"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "service_details": {
+            "title": "AutoCare Solutions - Tire Services",
+            "description": "At AutoCare Solutions, we understand that your tires are a critical component of your vehicle's performance, safety, and overall driving experience. Our tire services are designed to ensure that your tires are in optimal condition, providing you with the traction, handling, and comfort you deserve. Explore our comprehensive tire services below:",
+            "services": [
+                {
+                    "title": "Tire Rotation",
+                    "description": "Regular tire rotation is essential for even tread wear and longevity. Our technicians will rotate your tires according to your vehicle's specifications, promoting balanced wear patterns and extending the life of your tires."
+                },
+                {
+                    "title": "Tire Balancing",
+                    "description": "Imbalanced tires can lead to uneven wear, vibrations, and handling issues. Our precision tire balancing services ensure that each tire and wheel assembly is balanced, enhancing your vehicle's ride comfort and overall performance."
+                },
+                {
+                    "title": "Wheel Alignment",
+                    "description": "Proper wheel alignment is crucial for maintaining vehicle stability and preventing uneven tire wear. Our advanced alignment equipment and skilled technicians will ensure that your wheels are aligned to manufacturer specifications."
+                },
+                {
+                    "title": "Tire Repair",
+                    "description": "If you've experienced a flat tire or puncture, our tire repair services are here to help. We'll assess the damage and, when possible, perform a professional repair to get you back on the road safely."
+                }
+            ]
+        },
+        "similar_services": [
+            {
+                "id": 1,
+                "title": "Diagnostic Services",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "icon": "/assets/img/icon/service-icon-1.svg"
+            },
+            {
+                "id": 2,
+                "title": "Routine Maintenance",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "icon": "/assets/img/icon/service-icon-2.svg"
+            },
+            {
+                "id": 3,
+                "title": "Brake System Repair",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "icon": "/assets/img/icon/service-icon-3.svg"
+            }
+        ]
+    }
+]

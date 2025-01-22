@@ -1,0 +1,55 @@
+[
+    {
+        "title": "Home",
+        "link": "/",
+        "key": "home"
+    },
+    {
+        "title": "About",
+        "link": "/about",
+        "key": "about"
+    },
+    {
+        "title": "Services",
+        "link": "/service",
+        "key": "service",
+        "childern": [
+            {
+                "title": "All Services",
+                "link": "/service",
+                "key": "service1"
+            },
+            {
+                "title": "Engine",
+                "link": "/service-single/1",
+                "key": "servicetwo"
+            },
+            {
+                "title": "Bodywork & Paint",
+                "link": "/service-single/2",
+                "key": "servicetwo"
+            },
+            {
+                "title": "Custom Fabrication",
+                "link": "/service-single/3",
+                "key": "servicetwo"
+            },
+            {
+                "title": "Detailing & Preservation",
+                "link": "/service-single/4",
+                "key": "servicetwo"
+            },
+            {
+                "title": "Interior",
+                "link": "/service-single/5",
+                "key": "servicetwo"
+            }
+
+        ]
+    },
+    {
+        "title": "Contact",
+        "link": "/contact",
+        "key": "contact"
+    }
+]
