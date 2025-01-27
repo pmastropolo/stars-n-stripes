@@ -174,7 +174,7 @@ const HeroSlider = () => {
               <img src="/assets/img/icon/hero-time.svg" alt="..." />
             </div>
             <p className="ak-font-18 ak-white-color ak-semi-bold">
-              Sun - Thu: Open 27/7
+            Tues - Fri: 8AM - 5PM
             </p>
           </div>
         </div>

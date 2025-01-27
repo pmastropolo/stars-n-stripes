@@ -6,11 +6,11 @@ const chooseUsData = {
   bgText: "Excellence",
   title: "Why Choose Stars and Stripes Automotive",
   desp: "At Stars and Stripes Automotive LLC, we specialize in restoring, repairing, and improving vintage and classic cars with unmatched craftsmanship. Our commitment to quality and passion for automotive history make us the go-to destination for car enthusiasts in Bessemer, Alabama, and beyond.",
-  img: "/assets/img/chooseus/choose-us.png",
+  img: "/assets/img/chooseus/side-banner-image.png",
   list: [
     { title: "Expert Vintage Car Specialists" },
     { title: "High-Quality Restoration Services" },
-    { title: "Over 500 Happy Clients" },
+    { title: "Trusted by Collectors and Enthusiasts" },
     { title: "Guaranteed Satisfaction on Every Job" },
   ],
 };
@@ -47,7 +47,7 @@ const ChooseUs = () => {
             <img src={img} alt="..." />
             <img
               className="circle-img"
-              src="/assets/img/chooseus/Circle.png"
+              src="/assets/img/chooseus/circle.png"
               alt="..."
             />
           </div>
