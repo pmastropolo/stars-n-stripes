@@ -198,7 +198,7 @@ const Footer = () => {
           <div className="primary-color-border"></div>
           <div className="copy-right">
             <p className="title  text-hover-animaiton">
-              Copyright 2024, All Right reserved
+            &copy; 2024 Stars and Stripes Automotive, LLC. All rights reserved.
             </p>
 
           </div>
