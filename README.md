@@ -4,7 +4,7 @@ A modern web application built with React, Vite, and a variety of frontend libra
 
 ## Link
 
-https://starsnstripesautomotive.com/
+Deployed on Netlify: https://starsnstripesautomotive.com/
 
 ## Features
 
