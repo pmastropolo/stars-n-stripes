@@ -24,7 +24,7 @@ const footerDataArray = [
     className: "footer-menu-two",
     dataAosDelay: "100",
     links: [
-      { title: "FA Question", link: "/faq" },
+      { title: "FAQ", link: "/faq" },
     ],
   },
   {
