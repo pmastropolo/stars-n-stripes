@@ -102,3 +102,9 @@ To install the required dependencies, run the following in your terminal:
 ```bash
 npm install
 
+
+![IMG_1682](https://github.com/user-attachments/assets/54e6b5e2-e0eb-4247-9967-b8608cbb9ebf)
+![IMG_1681](https://github.com/user-attachments/assets/9444eeb4-f2fa-45cf-ad58-104dbda5b601)
+![IMG_1680](https://github.com/user-attachments/assets/f19d7b92-6af3-4f91-91eb-ad2bf44966c9)
+
+
