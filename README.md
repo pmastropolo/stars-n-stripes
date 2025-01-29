@@ -2,6 +2,8 @@
 
 A modern web application built with React, Vite, and a variety of frontend libraries for performance and ease of development. This project leverages responsive design, dynamic animations, and interactive UI elements for an engaging user experience.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/05dc1a27-5bff-4db0-9420-038f7091a57b/deploy-status)](https://app.netlify.com/sites/stars-and-stripes-automotive-llc/deploys)
+
 ## Link
 
 Deployed on Netlify: https://starsnstripesautomotive.com/
