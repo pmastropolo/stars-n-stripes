@@ -201,6 +201,12 @@ const Footer = () => {
             <p className="title  text-hover-animaiton">
             &copy; 2024 Stars and Stripes Automotive, LLC. All rights reserved.
             </p>
+            <p className="footer-credit">
+            Made by:&nbsp;
+            <a href="https://github.com/pmastropolo" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+              pmastropolo
+            </a> 🩶
+          </p>
 
           </div>
         </div>
