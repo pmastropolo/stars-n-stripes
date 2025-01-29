@@ -25,6 +25,7 @@ const footerDataArray = [
     dataAosDelay: "100",
     links: [
       { title: "FAQ", link: "/faq" },
+      { title: "Terms & Conditions", link: "/terms-and-conditions" },
     ],
   },
   {
