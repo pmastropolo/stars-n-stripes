@@ -10,6 +10,7 @@ import Gallery from "./pages/Gallery";
 import Faq from "./pages/Faq";
 import Contact from "./pages/Contact";
 import SingleService from "./pages/SingleService";
+import TermsCon from "./pages/terms-and-conditions";
 
 export default function App() {
   useEffect(() => {
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/faq" element={<Faq />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/terms-and-conditions" element={<TermsCon />} />
       </Route>
       <Route path="/*" element={<ErrorPages />}></Route>
     </Routes>
