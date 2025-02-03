@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -42,7 +43,7 @@ const ContactForm = () => {
 
     if (!formData.topic) {
       isValid = false;
-      tempErrors["topic"] = "Please enter a topic.";
+      tempErrors["topic"] = "Please enter the topic of your inquiry.";
     }
 
     if (!formData.subject) {
@@ -62,15 +63,29 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validate()) {
-      alert("Your message has been sent successfully!");
-
-      setFormData({
-        name: "",
-        email: "",
-        topic: "",
-        subject: "",
-        msg: "",
-      });
+      // Send form data via EmailJS
+      emailjs
+        .sendForm(
+          'service_ez0r3di', // SERVICE ID
+          'template_9ymidzw', // TEMPLATE ID
+          e.target,
+          'qM1zsRGhxM1NZgjtk' // Replace with your user ID
+        )
+        .then(
+          (result) => {
+            setAlertMessage("Your message has been sent successfully! We'll get back to you shortly.");
+            setFormData({
+              name: "",
+              email: "",
+              topic: "",
+              subject: "",
+              msg: "",
+            });
+          },
+          (error) => {
+            setAlertMessage("Oops! Something went wrong. Please try again later.");
+          }
+        );
     }
   };
 
@@ -79,32 +94,24 @@ const ContactForm = () => {
       <div className="ak-height-100 ak-height-lg-40"></div>
       <div className="ak-height-125 ak-height-lg-80"></div>
       <div className="contact-content">
-        <div
-          className="contact-title-section"
-          data-aos="fade-up"
-          data-aos-delay="700"
-        >
-          <h2 className="contact-form-title ak-white-color text-uppercase">
-          Get In Touch With Us
-          </h2>
+        <div className="contact-title-section" data-aos="fade-up" data-aos-delay="700">
+          <h2 className="contact-form-title ak-white-color text-uppercase">Get In Touch with Stars and Stripes Automotive</h2>
           <p>Home / Contact</p>
         </div>
         <div className="ak-height-25 ak-height-lg-20"></div>
         <div className="contact-form" data-aos="fade-up" data-aos-delay="750">
           <div>
-            <h5 className="mb-3">How can we help?</h5>
+            <h5 className="mb-3">How can we assist you?</h5>
             <p>
-            Whether you're restoring a classic car or repairing your pride and joy, we're here to help with expert advice and exceptional craftsmanship.
+              Whether you're restoring a classic car or need repairs, we're here to provide expert advice and exceptional craftsmanship. We love to help with any questions you have!
             </p>
             <div className="ak-height-45 ak-height-lg-30"></div>
           </div>
           <div id="ak-alert">{alertMessage && <p>{alertMessage}</p>}</div>
-          <form method="POST" id="contact-form" onSubmit={handleSubmit}>
+          <form id="contact-form" onSubmit={handleSubmit}>
             <div className="from-inputs">
               <div className="type_1">
-                <label htmlFor="name" className="form-label">
-                  Full Name
-                </label>
+                <label htmlFor="name" className="form-label">Full Name</label>
                 <input
                   type="text"
                   name="name"
@@ -116,9 +123,7 @@ const ContactForm = () => {
                 {errors.name && <p className="error">{errors.name}</p>}
               </div>
               <div className="type_1">
-                <label htmlFor="email" className="form-label">
-                  Email*
-                </label>
+                <label htmlFor="email" className="form-label">Email*</label>
                 <input
                   type="email"
                   name="email"
@@ -132,9 +137,7 @@ const ContactForm = () => {
             </div>
             <div className="from-inputs">
               <div className="type_1">
-                <label htmlFor="topic" className="form-label">
-                  Which topic best matches your question?
-                </label>
+                <label htmlFor="topic" className="form-label">What is the topic of your question?</label>
                 <input
                   type="text"
                   name="topic"
@@ -146,9 +149,7 @@ const ContactForm = () => {
                 {errors.topic && <p className="error">{errors.topic}</p>}
               </div>
               <div className="type_1">
-                <label htmlFor="subject" className="form-label">
-                  Subject
-                </label>
+                <label htmlFor="subject" className="form-label">Subject</label>
                 <input
                   type="text"
                   name="subject"
@@ -162,9 +163,7 @@ const ContactForm = () => {
             </div>
             <div className="from-textarea">
               <div className="type_1">
-                <label htmlFor="msg" className="form-label">
-                  Your Message*
-                </label>
+                <label htmlFor="msg" className="form-label">Your Message*</label>
                 <textarea
                   name="msg"
                   rows="5"
@@ -178,14 +177,7 @@ const ContactForm = () => {
             </div>
 
             <div className="ak-height-40 ak-height-lg-20"></div>
-            <button
-              type="submit"
-              id="submit"
-              name="submit"
-              className="common-btn"
-            >
-              SEND MESSAGE
-            </button>
+            <button type="submit" className="common-btn">SEND MESSAGE</button>
           </form>
         </div>
       </div>
