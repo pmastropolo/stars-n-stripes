@@ -72,10 +72,10 @@ const ContactForm = () => {
       // Send form data via EmailJS using sendForm
       emailjs
         .sendForm(
-          'service_ez0r3di', // Your EmailJS service ID
-          'template_e56ik9p', // Your EmailJS template ID
+          'service_ez0r3di', // SERVICE ID
+          'template_e56ik9p', // TEMPLATE ID
           form,               // Directly pass the form as the third argument
-          'veUrxXCe020uC8I6n' // Your EmailJS public key
+          'veUrxXCe020uC8I6n' // Your EmailJS PUBLIC KEY
         )
         .then(
           (result) => {

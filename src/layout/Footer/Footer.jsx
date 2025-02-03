@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import TextAnimation from "../../components/TextAnimation/TextAnimation";
+import emailjs from "emailjs-com"; // Import emailjs
 
 import footerLogo from "/assets/img/icon/stars-and-stripes-automotive-llc-footer-logo.svg";
 
@@ -42,16 +43,32 @@ const Footer = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  // Handle the form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateEmail(email)) {
-      setMessage("Thank you for subscribing!");
-      setEmail("");
+      emailjs
+        .sendForm(
+          'service_ez0r3di', // Your Service ID from EmailJS
+          'template_x9sxs53', // Your Template ID for newsletter
+          e.target, // Send the form data
+          'veUrxXCe020uC8I6n' // Your Public Key from EmailJS
+        )
+        .then(
+          (result) => {
+            setMessage("Thank you for subscribing!");
+            setEmail(""); // Clear the input field after successful submission
+          },
+          (error) => {
+            setMessage("Oops! Something went wrong. Please try again later.");
+          }
+        );
     } else {
       setMessage("Please enter a valid email address.");
     }
   };
 
+  // Validate the email address format
   const validateEmail = (email) => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(String(email).toLowerCase());
@@ -80,14 +97,14 @@ const Footer = () => {
             </div>
             <div className="footer-heading-email">
               <h5 className="email-title">
-              Get exclusive deals and updates straight to your inbox!
+                Get exclusive deals and updates straight to your inbox!
               </h5>
               <div>
                 <p id="ak-alert-footer">{message}</p>
                 <form className="email-form" onSubmit={handleSubmit}>
                   <input
                     type="text"
-                    name="footerEmail"
+                    name="email"  // Matches {{email}} in your EmailJS template
                     id="footerEmail"
                     placeholder="Enter your email..."
                     className="email-input"
@@ -200,16 +217,15 @@ const Footer = () => {
           <div className="ak-height-70 ak-height-lg-30"></div>
           <div className="primary-color-border"></div>
           <div className="copy-right">
-            <p className="title  text-hover-animaiton">
-            &copy; 2024 Stars and Stripes Automotive, LLC. All rights reserved.
+            <p className="title text-hover-animaiton">
+              &copy; 2024 Stars and Stripes Automotive, LLC. All rights reserved.
             </p>
             <p className="footer-credit">
-            Made by:&nbsp;
-            <a href="https://github.com/pmastropolo" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
-              pmastropolo
-            </a> 🩶
-          </p>
-
+              Made by:&nbsp;
+              <a href="https://github.com/pmastropolo" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+                pmastropolo
+              </a> 🩶
+            </p>
           </div>
         </div>
       </footer>
