@@ -96,25 +96,25 @@
     {
         "id": 3,
         "service_details": {
-            "title": "Custom Fabrication and Metalwork",
-            "description": "At Stars and Stripes Automotive LLC, we take pride in our custom fabrication and metalwork services, tailored to meet the unique needs of vintage and classic car enthusiasts. From handcrafted parts to precision modifications, we deliver exceptional craftsmanship that enhances your cars aesthetics and performance.",
+            "title": "LS Swaps and EFI Conversions",
+            "description": "At Stars and Stripes Automotive LLC, we specialize in LS engine swaps and EFI conversions, bringing modern reliability and performance to your classic ride. Our expert team ensures seamless integration, enhancing horsepower, drivability, and efficiency while maintaining the soul of your vehicle.",
             "services": [
-              {
-                "title": "Custom Metal Fabrication",
-                "description": "Our skilled craftsmen design and fabricate custom metal components to exact specifications, ensuring a perfect fit and seamless integration for your classic car."
-              },
-              {
-                "title": "Sheet Metal Repair and Replacement",
-                "description": "We repair or replace damaged sheet metal with precision, restoring your cars body to its original appearance while maintaining structural integrity."
-              },
-              {
-                "title": "Chassis Modifications",
-                "description": "Upgrade your cars foundation with custom chassis modifications, improving performance, stability, and compatibility with modern enhancements."
-              },
-              {
-                "title": "One-of-a-Kind Customizations",
-                "description": "Transform your classic car into a unique masterpiece with bespoke customizations, including unique grilles, bumpers, and other specialty metalwork."
-              }
+             {
+                "title": "LS Engine Swaps",
+                "description": "Upgrade your classic car with a high-performance LS engine swap, providing increased power, efficiency, and reliability while retaining the vehicle’s original character."
+            },
+            {
+                "title": "EFI Conversions",
+                "description": "Enhance fuel efficiency and throttle response with our EFI conversion services, replacing outdated carburetors with modern electronic fuel injection systems."
+            },
+            {
+                "title": "Wiring and ECU Tuning",
+                "description": "Ensure optimal engine performance with custom wiring harnesses and ECU tuning, designed for a seamless LS swap or EFI conversion."
+            },
+            {
+                "title": "Custom Exhaust and Cooling Solutions",
+                "description": "Keep your LS-powered classic running cool and sounding great with custom exhaust and cooling system upgrades tailored to your setup."
+            }
             ]
         },
         "similar_services": [
