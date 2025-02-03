@@ -6,7 +6,7 @@ const ContactForm = () => {
     name: "",
     email: "",
     topic: "",
-    subject: "",
+    phone: "",
     msg: "",
   });
 
@@ -15,6 +15,7 @@ const ContactForm = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+    console.log(`Field changed: ${name}, Value: ${value}`);  // Debugging log
     setFormData({
       ...formData,
       [name]: value,
@@ -46,9 +47,9 @@ const ContactForm = () => {
       tempErrors["topic"] = "Please enter the topic of your inquiry.";
     }
 
-    if (!formData.subject) {
+    if (!formData.phone) {
       isValid = false;
-      tempErrors["subject"] = "Please enter a subject.";
+      tempErrors["phone"] = "Please enter your phone number.";
     }
 
     if (!formData.msg) {
@@ -62,14 +63,15 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    console.log("Form Data Submitted:", formData);  // Debugging log
     if (validate()) {
       // Send form data via EmailJS
       emailjs
         .sendForm(
           'service_ez0r3di', // SERVICE ID
-          'template_9ymidzw', // TEMPLATE ID
+          'template_e56ik9p', // TEMPLATE ID
           e.target,
-          'qM1zsRGhxM1NZgjtk' // Replace with your user ID
+          'veUrxXCe020uC8I6n' // PUBLIC ID - USER ID
         )
         .then(
           (result) => {
@@ -78,7 +80,7 @@ const ContactForm = () => {
               name: "",
               email: "",
               topic: "",
-              subject: "",
+              phone: "",  // Reset phone number field
               msg: "",
             });
           },
@@ -111,11 +113,11 @@ const ContactForm = () => {
           <form id="contact-form" onSubmit={handleSubmit}>
             <div className="from-inputs">
               <div className="type_1">
-                <label htmlFor="name" className="form-label">Full Name</label>
+                <label htmlFor="from_name" className="form-label">Full Name</label>
                 <input
                   type="text"
-                  name="name"
-                  id="name"
+                  name="name"  // Matches {{name}} in the template
+                  id="from_name"
                   value={formData.name}
                   onChange={handleChange}
                   required
@@ -123,11 +125,11 @@ const ContactForm = () => {
                 {errors.name && <p className="error">{errors.name}</p>}
               </div>
               <div className="type_1">
-                <label htmlFor="email" className="form-label">Email*</label>
+                <label htmlFor="reply_to" className="form-label">Email*</label>
                 <input
                   type="email"
-                  name="email"
-                  id="email"
+                  name="email"  // Matches {{email}} in the template
+                  id="reply_to"
                   value={formData.email}
                   onChange={handleChange}
                   required
@@ -140,7 +142,7 @@ const ContactForm = () => {
                 <label htmlFor="topic" className="form-label">What is the topic of your question?</label>
                 <input
                   type="text"
-                  name="topic"
+                  name="topic"  // Matches {{topic}} in the template
                   id="topic"
                   value={formData.topic}
                   onChange={handleChange}
@@ -149,25 +151,25 @@ const ContactForm = () => {
                 {errors.topic && <p className="error">{errors.topic}</p>}
               </div>
               <div className="type_1">
-                <label htmlFor="subject" className="form-label">Subject</label>
+                <label htmlFor="phone" className="form-label">Phone Number</label>
                 <input
                   type="text"
-                  name="subject"
-                  id="subject"
-                  value={formData.subject}
+                  name="phone"  // Matches {{phone}} in the template
+                  id="phone"
+                  value={formData.phone}
                   onChange={handleChange}
                   required
                 />
-                {errors.subject && <p className="error">{errors.subject}</p>}
+                {errors.phone && <p className="error">{errors.phone}</p>}
               </div>
             </div>
             <div className="from-textarea">
               <div className="type_1">
-                <label htmlFor="msg" className="form-label">Your Message*</label>
+                <label htmlFor="message" className="form-label">Your Message*</label>
                 <textarea
-                  name="msg"
+                  name="msg"  // Matches {{msg}} in the template
                   rows="5"
-                  id="msg"
+                  id="message"
                   value={formData.msg}
                   onChange={handleChange}
                   required
