@@ -6,7 +6,6 @@ const TermsCon = () => {
         <>
             <CommonPageHero title={"Terms and Conditions"} />
             <div className="container mx-auto p-6">
-                <h2 className="text-2xl font-bold mb-4">Terms and Conditions</h2>
                 <p className="mb-4">Welcome to Stars and Stripes Automotive, LLC. These terms and conditions outline the rules and regulations for the use of our website and services.</p>
                 
                 <h3 className="text-xl font-semibold mt-4">1. Acceptance of Terms</h3>

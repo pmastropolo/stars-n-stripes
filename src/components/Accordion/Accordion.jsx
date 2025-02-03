@@ -8,9 +8,9 @@ const faqItems = [
       "At Stars and Stripes Automotive LLC, we specialize in restoring, repairing, and customizing vintage and classic cars, including American muscle cars, European classics, and antique models."
   },
   {
-    title: "Do you provide custom fabrication services?",
+    title: "Do you provide LS swaps and EFI conversion services?",
     content:
-      "Yes, we offer custom fabrication services, including metalwork, chassis modifications, and bespoke components tailored to your car’s specific needs."
+      "Yes, we specialize in LS swaps and EFI conversions. Our team is experienced in performing high-quality engine swaps, including adapting and tuning EFI systems to ensure optimal performance for your vehicle."
   },
   {
     title: "Can you restore the interior of my vintage car?",

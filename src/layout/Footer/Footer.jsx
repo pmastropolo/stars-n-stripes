@@ -26,6 +26,8 @@ const footerDataArray = [
     links: [
       { title: "FAQ", link: "/faq" },
       { title: "Terms & Conditions", link: "/terms-and-conditions" },
+      { title: "Acessibility Statement", link: "/accessibility-statement" },
+      { title: "Privacy Policy", link: "/privacy-policy" },
     ],
   },
   {
