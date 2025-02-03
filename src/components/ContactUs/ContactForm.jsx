@@ -15,7 +15,6 @@ const ContactForm = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    console.log(`Field changed: ${name}, Value: ${value}`);  // Debugging log
     setFormData({
       ...formData,
       [name]: value,
@@ -34,7 +33,7 @@ const ContactForm = () => {
     if (!formData.email) {
       isValid = false;
       tempErrors["email"] = "Please enter your email address.";
-    } else if (typeof formData.email !== "undefined") {
+    } else {
       let pattern = new RegExp(/^[^\s@]+@[^\s@]+\.[^\s@]+$/);
       if (!pattern.test(formData.email)) {
         isValid = false;
@@ -63,28 +62,35 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form Data Submitted:", formData);  // Debugging log
     if (validate()) {
-      // Send form data via EmailJS
+      // Debugging log to check form data
+      console.log("Form Data Submitted:", formData);
+
+      // Create a FormData object manually from the form
+      const form = e.target;
+
+      // Send form data via EmailJS using sendForm
       emailjs
         .sendForm(
-          'service_ez0r3di', // SERVICE ID
-          'template_e56ik9p', // TEMPLATE ID
-          e.target,
-          'veUrxXCe020uC8I6n' // PUBLIC ID - USER ID
+          'service_ez0r3di', // Your EmailJS service ID
+          'template_e56ik9p', // Your EmailJS template ID
+          form,               // Directly pass the form as the third argument
+          'veUrxXCe020uC8I6n' // Your EmailJS public key
         )
         .then(
           (result) => {
+            console.log(result.text);  // Log response for debugging
             setAlertMessage("Your message has been sent successfully! We'll get back to you shortly.");
             setFormData({
               name: "",
               email: "",
               topic: "",
-              phone: "",  // Reset phone number field
+              phone: "",
               msg: "",
             });
           },
           (error) => {
+            console.log(error);  // Log any errors for debugging
             setAlertMessage("Oops! Something went wrong. Please try again later.");
           }
         );
