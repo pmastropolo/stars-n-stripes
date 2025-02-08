@@ -48,6 +48,11 @@
         ]
     },
     {
+        "title": "Gallery",
+        "link": "/gallery",
+        "key": "about"
+    },
+    {
         "title": "Contact",
         "link": "/contact",
         "key": "contact"
