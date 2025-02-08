@@ -1,43 +1,73 @@
 [
     {
         "id": 1,
-        "thumbnail": "/assets/img/gallery/gallery_1.jpg",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-1.png",
         "alt": "Photo",
         "orientation": ""
     },
     {
         "id": 2,
-        "thumbnail": "/assets/img/gallery/gallery_2.jpg",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-5.png",
         "alt": "Photo",
         "orientation": "vertical"
     },
     {
         "id": 3,
-        "thumbnail": "/assets/img/gallery/gallery_3.jpg",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-4.png",
         "alt": "Photo",
         "orientation": "horizontal"
     },
     {
         "id": 4,
-        "thumbnail": "/assets/img/gallery/gallery_4.jpg",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-2.png",
         "alt": "Photo",
         "orientation": ""
     },
     {
         "id": 5,
-        "thumbnail": "/assets/img/gallery/gallery_5.jpg",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-6.png",
         "alt": "Photo",
         "orientation": ""
     },
     {
         "id": 6,
-        "thumbnail": "/assets/img/gallery/gallery_6.jpg",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-7.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 7,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-3.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 8,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-8.png",
         "alt": "Photo",
         "orientation": "horizontal"
     },
     {
-        "id": 7,
-        "thumbnail": "/assets/img/gallery/gallery_7.jpg",
+        "id": 9,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-9.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 10,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-10.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 11,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-11.png",
+        "alt": "Photo",
+        "orientation": "horizontal"
+    },
+    {
+        "id": 12,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-12.png",
         "alt": "Photo",
         "orientation": ""
     }

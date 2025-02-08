@@ -10,15 +10,15 @@ const sliderData = [
     title: "Car Repair & Auto",
     maintitle: "Services",
     desp: " Our skilled team of certified technicians is here to provide top-notch car repair and auto services to ensure your vehicle performs at its best. Our skilled team of certified technicians.",
-    url: "/appointment",
+    url: "/contact",
     img: "/assets/img/hero/homepage-banner-image.png",
   },
   {
     id: 2,
-    title: "Custom Fabrication",
-    maintitle: "Metalwork Specialists",
-    desp: "Looking for custom solutions? Our skilled metalworkers provide expert fabrication for unique builds, restorations, and modifications tailored to your vision.",
-    url: "/appointment",
+    title: "LS Swaps and EFI Conversions",
+    maintitle: "More Power. More Efficiency. Modern Performance.",
+    desp: "Boost power, efficiency, and reliability with our expert LS swaps and EFI conversions. Precision installation and tuning for top performance.",
+    url: "/contact",
     img: "/assets/img/hero/homepage-banner-image.png",
   },
   {
@@ -26,7 +26,7 @@ const sliderData = [
     title: "Classic Car Detailing",
     maintitle: "Preservation Services",
     desp: "We specialize in detailing and preserving classic vehicles, ensuring your prized car maintains its value and pristine appearance for years to come.",
-    url: "/appointment",
+    url: "/contact",
     img: "/assets/img/hero/homepage-banner-image.png",
   },
   {
@@ -34,7 +34,7 @@ const sliderData = [
     title: "Custom Upholstery",
     maintitle: "Interior Craftsmanship",
     desp: "Enhance your vehicle's interior with our custom upholstery services. From luxury materials to personalized designs, we make your car’s interior stand out.",
-    url: "/appointment",
+    url: "/contact",
     img: "/assets/img/hero/homepage-banner-image.png",
   },
 ];
