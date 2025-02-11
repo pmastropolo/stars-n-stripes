@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import classNames from "classnames";
 import TextAnimation from "../TextAnimation/TextAnimation";
 
-export default function MenuItem({ props }) {
+export default function MenuItem({ props, closeNavMenu }) {
   const [showMenu, setShowMenu] = useState(false);
 
   const showsubnav = () => {
@@ -18,15 +18,21 @@ export default function MenuItem({ props }) {
     active: showMenu,
   });
 
+  const handleLinkClick = () => {
+    if (closeNavMenu) {
+      closeNavMenu(); // Close the menu on link click
+    }
+  };
+
   return (
     <li className={showActivePrent}>
-      <TextAnimation link={props.link} title={props.title} />
+      <TextAnimation link={props.link} title={props.title} onClick={handleLinkClick} />
       {isArray(props.childern) && (
         <>
           <ul>
             {props?.childern?.map((child) => (
               <li key={child.key}>
-                <TextAnimation link={child.link} title={child.title} />
+                <TextAnimation link={child.link} title={child.title} onClick={handleLinkClick} />
               </li>
             ))}
           </ul>

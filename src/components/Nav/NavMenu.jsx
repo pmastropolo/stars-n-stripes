@@ -1,27 +1,32 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import MenuItem from "./MenuItem";
-
+import MenuItem from "./MenuItem"; // Ensure MenuItem is correctly imported
 import logo from "/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg";
-
-import navitemlist from "../../dataJson/navitemlist.json";
+import navitemlist from "../../dataJson/navitemlist.json"; // Make sure this file exists and contains your nav data
 
 export default function NavMenu() {
   const [navBar, setNavbar] = useState("");
   const [navlist, setNavList] = useState("");
 
+  // Function to toggle the navbar visibility
   const navBarShow = () => {
-    if (navBar == "") {
+    if (navBar === "") {
       setNavbar("ak-toggle_active");
     } else {
       setNavbar("");
     }
 
-    if (navlist == "") {
+    if (navlist === "") {
       setNavList("ak-show-moblie-nav-list");
     } else {
       setNavList("");
     }
+  };
+
+  // Function to close the navbar (called when a link is clicked)
+  const closeNavMenu = () => {
+    setNavbar(""); // Reset the navbar state
+    setNavList(""); // Hide the mobile nav list
   };
 
   return (
@@ -37,7 +42,10 @@ export default function NavMenu() {
             <div className="ak-nav ak-medium">
               <ul id="ak-nav_list" className={`ak-nav_list ${navlist}`}>
                 {navitemlist?.map((item, i) => {
-                  return <MenuItem props={item} key={i} />;
+                  return (
+                    // Pass closeNavMenu function to MenuItem so it can be used in TextAnimation
+                    <MenuItem props={item} key={i} closeNavMenu={closeNavMenu} />
+                  );
                 })}
               </ul>
               <span
