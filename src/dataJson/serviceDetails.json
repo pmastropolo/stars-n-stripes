@@ -2,28 +2,28 @@
     {
         "id": 1,
         "service_details": {
-            "title": "Stars and Stripes Automotive - Engine Rebuilding & Performance Upgrades",
-            "description": "At Stars and Stripes Automotive LLC, we specialize in restoring power and enhancing the performance of vintage and classic car engines. Our expert technicians are dedicated to bringing your engine back to life with precision rebuilding and upgrading it to meet modern performance standards. Explore our comprehensive engine services below:",
+            "title": "Stars and Stripes Automotive LLC - Engine Rebuilding & Performance Upgrades",
+            "description": "At Stars and Stripes Automotive LLC, we are passionate about reviving the heart of your vintage and classic cars—your engine. Our expert team specializes in restoring power, precision, and performance, ensuring your engine not only runs like new but exceeds modern standards. Whether you're looking to restore a cherished classic or elevate its performance, our skilled technicians provide high-quality engine rebuilding and performance upgrades tailored to your needs. Discover the full range of our engine services designed to optimize both reliability and power:",
             "services": [
                 {
-                    "title": "Engine Rebuilding",
-                    "description": "Our meticulous engine rebuilding process restores vintage and classic car engines to their original specifications or better. We disassemble, clean, inspect, and rebuild your engine with precision to ensure optimal performance and reliability."
+                    "title": " Engine Rebuilding",
+                    "description": "Our Engine Rebuilding service is a thorough process designed to breathe new life into your vintage or classic car engine. We disassemble, clean, and meticulously inspect each component before rebuilding it to original or enhanced specifications. Our focus is on precision to ensure your engine runs smoothly with maximum performance and reliability."
                   },
                   {
-                    "title": "Performance Upgrades",
-                    "description": "Enhance your classic car's performance with custom upgrades. From carburetor tuning to modern ignition systems and high-performance parts, we bring modern performance technology to timeless machines."
+                    "title": " Performance Upgrades",
+                    "description": "Ready to take your classic car to the next level? Our Performance Upgrades are tailored to fit your specific driving style and goals. From carburetor tuning to modern ignition systems and high-performance parts, we incorporate cutting-edge technology to unlock your vehicle's true potential, blending the best of the old and new."
                   },
                   {
-                    "title": "Cylinder Head Restoration",
-                    "description": "We offer expert cylinder head restoration services, including resurfacing, valve adjustments, and port polishing, to improve your engine's efficiency and power output."
+                    "title": " Cylinder Head Restoration",
+                    "description": "Our Cylinder Head Restoration service enhances your engines power and efficiency. We offer complete restoration, including resurfacing, valve adjustments, and port polishing, to maximize airflow and boost horsepower. Trust us to improve both the longevity and performance of your engines most vital components."
                   },
                   {
-                    "title": "Custom Exhaust Systems",
-                    "description": "Upgrade your exhaust system for improved horsepower and a signature sound. We design and install custom exhaust systems tailored to your car's specifications and your preferences."
+                    "title": " Custom Exhaust Systems",
+                    "description": "Give your classic car an exhilarating boost in both sound and performance with our Custom Exhaust Systems. Designed to improve horsepower and optimize airflow, we create systems that are as unique as your car, delivering an unmatched signature sound while ensuring top-notch performance."
                   },
                   {
-                    "title": "Engine Diagnostics and Tuning",
-                    "description": "Using advanced diagnostic tools, we fine-tune your engine for peak performance and reliability. From fuel system optimization to ignition timing, our tuning services maximize your car's potential."
+                    "title": " Engine Diagnostics and Tuning",
+                    "description": "With advanced diagnostic tools and expert tuning, we ensure your engine runs at peak performance. From fuel system optimization to ignition timing, we fine-tune every aspect of your engine to deliver optimal power, efficiency, and reliability. Let us help you unlock the full potential of your engine and keep it running smoothly for years to come."
                   }
             ]
         },
@@ -52,23 +52,23 @@
         "id": 2,
         "service_details": {
             "title": "Bodywork and Paint Restoration",
-            "description": "At Stars and Stripes Automotive LLC, we bring timeless beauty back to life with expert bodywork and paint restoration services. Whether your classic car needs rust repair, dent removal, or a complete repaint, our skilled technicians ensure every detail is perfected to preserve the cars vintage charm and enhance its aesthetic appeal.",
+            "description": "At Stars and Stripes Automotive LLC, we specialize in bringing the timeless beauty of your classic car back to life through expert bodywork and paint restoration services. Whether your vehicle needs rust removal, dent repair, or a complete repaint, our team of skilled technicians meticulously restore every detail to preserve your car's vintage charm. We enhance both the aesthetic appeal and value of your vehicle, ensuring it stands the test of time. With a focus on quality, craftsmanship, and attention to detail, our restoration services are designed to rejuvenate your car and maintain its classic appeal. Explore our comprehensive restoration services below:",
             "services": [
                 {
-                    "title": "Rust Removal and Repair",
-                    "description": "We expertly remove rust and restore structural integrity, preserving your cars original look while ensuring durability and longevity."
+                    "title": " Rust Removal and Repair",
+                    "description": "Rust can significantly damage the structural integrity of your classic car. At Stars and Stripes Automotive LLC, our expert team uses advanced techniques to remove rust and repair affected areas. By restoring both the body and frame, we preserve your cars original look while ensuring its long-lasting durability and strength. Protect your investment and keep your vintage car looking like new with our thorough rust removal and repair services."
                   },
                   {
-                    "title": "Dent and Panel Restoration",
-                    "description": "Our technicians repair dents and damaged panels with precision, ensuring your car's body is flawless and ready for a perfect finish."
+                    "title": " Dent and Panel Restoration",
+                    "description": "Our Dent and Panel Restoration services ensure your classic cars body remains flawless. From small dings to larger impacts, our skilled technicians meticulously repair dents and damaged panels to restore the cars smooth, seamless surface. With our precise techniques, we ensure your vehicle is ready for a flawless finish and preserves its original, vintage aesthetic."
                   },
                   {
-                    "title": "Custom Paint Restoration",
-                    "description": "Revive or reinvent your cars appearance with our custom paint services. We use high-quality materials to achieve a finish thats as stunning as it is durable."
+                    "title": " Custom Paint Restoration",
+                    "description": "Give your car a fresh new look or bring back its original brilliance with our Custom Paint Restoration services. Whether you want to restore your classic cars original color or reinvent its appearance, we use premium, long-lasting paints to achieve a stunning, durable finish. Our expert painters ensure every detail is perfected, delivering a show-stopping finish that enhances your cars value and aesthetic appeal."
                   },
                   {
-                    "title": "Polishing and Clear Coat Refinishing",
-                    "description": "Bring back the shine with expert polishing and clear coat refinishing, protecting your cars paint while enhancing its vibrant finish."
+                    "title": " Polishing and Clear Coat Refinishing",
+                    "description": "Bring back your classic car's original luster with our Polishing and Clear Coat Refinishing services. We expertly polish the paint surface to remove imperfections, followed by a protective clear coat that enhances both shine and longevity. This service not only restores your cars beauty but also protects it from future wear and environmental damage, giving your car a lasting and vibrant finish."
                   }
             ]
         },
@@ -97,23 +97,23 @@
         "id": 3,
         "service_details": {
             "title": "LS Swaps and EFI Conversions",
-            "description": "At Stars and Stripes Automotive LLC, we specialize in LS engine swaps and EFI conversions, bringing modern reliability and performance to your classic ride. Our expert team ensures seamless integration, enhancing horsepower, drivability, and efficiency while maintaining the soul of your vehicle.",
+            "description": "At Stars and Stripes Automotive LLC, we specialize in LS engine swaps and EFI conversions, blending modern performance, reliability, and efficiency with the classic charm of your vehicle. Whether you're looking to increase horsepower, improve drivability, or enhance fuel efficiency, our expert team ensures seamless integration of cutting-edge technology while preserving the soul of your ride. With precision engineering and high-performance solutions, we bring your classic car into the modern era without sacrificing its vintage character. Explore our LS swap and EFI conversion services below:",
             "services": [
              {
-                "title": "LS Engine Swaps",
-                "description": "Upgrade your classic car with a high-performance LS engine swap, providing increased power, efficiency, and reliability while retaining the vehicle’s original character."
+                "title": " LS Engine Swaps",
+                "description": "Upgrade your classic car with an LS engine swap to experience a massive boost in performance, power, and reliability. Our expert team ensures that the transition to a high-performance LS engine is seamless, integrating modern technology without compromising the original essence of your vehicle. With a focus on performance and durability, we provide the perfect solution to elevate your classic car's driving experience while maintaining its vintage appeal."
             },
             {
-                "title": "EFI Conversions",
-                "description": "Enhance fuel efficiency and throttle response with our EFI conversion services, replacing outdated carburetors with modern electronic fuel injection systems."
+                "title": " EFI Conversions",
+                "description": "Revolutionize your cars fuel system with our EFI Conversion services. By replacing outdated carburetors with modern electronic fuel injection (EFI) systems, we enhance fuel efficiency, improve throttle response, and ensure smoother engine operation. Our EFI conversions help your classic car meet modern standards for emissions and reliability while offering significant performance gains on the road."
             },
             {
-                "title": "Wiring and ECU Tuning",
-                "description": "Ensure optimal engine performance with custom wiring harnesses and ECU tuning, designed for a seamless LS swap or EFI conversion."
+                "title": " Wiring and ECU Tuning",
+                "description": "Our custom wiring harnesses and ECU tuning services are designed to optimize the performance of your LS engine or EFI conversion. Whether its ensuring seamless engine operation or fine-tuning for peak horsepower, our expert technicians use state-of-the-art technology to maximize your engines potential. From precision wiring to customized ECU settings, we provide tailored solutions for your LS swap or EFI upgrade."
             },
             {
-                "title": "Custom Exhaust and Cooling Solutions",
-                "description": "Keep your LS-powered classic running cool and sounding great with custom exhaust and cooling system upgrades tailored to your setup."
+                "title": " Custom Exhaust and Cooling Solutions",
+                "description": "Keep your LS-powered classic running cool and sounding incredible with our Custom Exhaust and Cooling Solutions. We design and install custom exhaust systems that not only improve airflow and performance but also provide a signature sound unique to your car. Our cooling system upgrades ensure optimal temperature regulation for your LS engine, keeping it running at its best during even the most intense drives."
             }
             ]
         },
@@ -138,27 +138,28 @@
             }
         ]
     },
+
     {
         "id": 4,
         "service_details": {
         "title": "Classic Car Detailing and Preservation",
-        "description": "At Stars and Stripes Automotive LLC, we specialize in meticulous detailing and preservation services to maintain the timeless elegance of your vintage and classic vehicles. From gentle cleaning techniques to advanced protective treatments, we ensure your car remains a shining example of automotive history.",
-            "services": [
-            {
-                "title": "Exterior Detailing",
-                "description": "Restore your classic cars luster with professional exterior detailing, including hand washing, paint correction, and waxing for a showroom-quality shine."
-            },
+        "description": "At Stars and Stripes Automotive LLC, we specialize in high-end detailing and preservation services to maintain the timeless beauty of your vintage and classic vehicles. Our expert team uses meticulous cleaning techniques and advanced protective treatments to ensure your car remains a shining example of automotive history. Whether you're looking to refresh your car's exterior, preserve its interior, or protect its finish, we provide top-tier services that keep your classic ride in peak condition. Explore our classic car detailing and preservation services below:",
+        "services": [
     {
-      "title": "Interior Restoration Cleaning",
-      "description": "Refresh your cars interior with thorough cleaning and conditioning of upholstery, carpets, and trims, preserving the original beauty of your vintage vehicle."
+    "title": " Exterior Detailing",
+    "description": "Restore your classic cars lustrous finish with our professional Exterior Detailing services. From hand washing and paint correction to premium waxing, we bring out the best in your vehicles exterior. Our detailed process removes contaminants, restores shine, and provides a showroom-quality finish, making your car stand out on the road or at a car show."
     },
     {
-      "title": "Engine Bay Detailing",
-      "description": "Enhance the appearance and cleanliness of your cars engine bay with precision detailing, removing grease and grime while ensuring components are protected."
+      "title": " Interior Restoration Cleaning",
+      "description": "Give your car's interior the care it deserves with our Interior Restoration Cleaning services. We thoroughly clean and condition upholstery, carpets, and trim, preserving the original beauty of your vintage vehicle. Our specialized treatments remove dirt, stains, and odors, while rejuvenating the materials to maintain the authenticity and comfort of your classic car's cabin."
     },
     {
-      "title": "Protective Coatings and Preservation",
-      "description": "Safeguard your vehicle with advanced protective coatings, such as ceramic or sealants, designed to shield against wear, UV damage, and environmental elements."
+      "title": " Engine Bay Detailing",
+      "description": "Enhance the appearance and cleanliness of your cars engine bay with our precision Engine Bay Detailing. We carefully clean and degrease components, removing dirt, grease, and grime, while ensuring all parts are properly protected. This service not only improves aesthetics but also helps in maintaining engine performance by preventing the build-up of harmful contaminants."
+    },
+    {
+      "title": " Protective Coatings and Preservation",
+      "description": "Keep your classic car looking pristine with our advanced Protective Coatings and Preservation services. We apply premium ceramic coatings or sealants that provide a durable layer of protection against wear, UV damage, and environmental elements. These coatings safeguard your cars paint and surfaces, maintaining its brilliance and extending the life of your investment."
     }
             ]
         },
@@ -187,23 +188,23 @@
         "id": 5,
         "service_details": {
            "title": "Custom Upholstery and Interior Design",
-  "description": "At Stars and Stripes Automotive LLC, we specialize in transforming the interiors of vintage and classic cars with bespoke upholstery and interior design services. From restoring original materials to creating custom designs, our expert craftsmanship ensures your vehicle’s interior is as iconic as its exterior.",
+  "description": "At Stars and Stripes Automotive LLC, we specialize in transforming the interiors of vintage and classic cars with bespoke upholstery and interior design services. Whether you're looking to restore original materials or create a completely custom interior, our expert craftsmanship ensures that your vehicle’s interior is as iconic as its exterior. With attention to detail and a passion for classic car restoration, we provide unique, tailored solutions to elevate your car's interior to a level of elegance and comfort that complements its legacy.",
   "services": [
     {
-      "title": "Original Upholstery Restoration",
-      "description": "Preserve the authenticity of your classic car by restoring its original upholstery with period-correct materials and techniques."
+      "title": " Original Upholstery Restoration",
+      "description": "Preserve the authenticity of your classic car with our Original Upholstery Restoration service. We carefully restore your vehicle’s original upholstery using period-correct materials and techniques, maintaining the vintage charm while ensuring durability. Whether it's the seats, door panels, or headliner, we bring back the original beauty and craftsmanship that defines your car’s legacy."
     },
     {
-      "title": "Custom Interior Design",
-      "description": "Create a one-of-a-kind interior with custom upholstery, stitching, and design elements tailored to your style and your car’s legacy."
+      "title": " Custom Interior Design",
+      "description": "Transform your classic car into a one-of-a-kind masterpiece with our Custom Interior Design services. From bespoke upholstery and stitching to unique design elements, we work with you to create an interior that matches your personal style and complements your car’s heritage. Whether you’re looking for a luxurious finish or a bold new look, our custom designs make your car’s interior as remarkable as its exterior."
     },
     {
-      "title": "Leather and Fabric Repairs",
-      "description": "Repair and restore worn or damaged leather, vinyl, and fabric interiors, ensuring a seamless match to your car's original look or custom upgrades."
+      "title": " Leather and Fabric Repairs",
+      "description": "Restore worn or damaged leather, vinyl, and fabric interiors to their original splendor with our expert Leather and Fabric Repair services. Our team carefully matches the color, texture, and style of your car’s interior, whether you’re preserving the original look or opting for a custom upgrade. We ensure that every repair blends seamlessly with your car's aesthetic, enhancing both appearance and comfort."
     },
     {
-      "title": "Carpeting and Headliner Replacement",
-      "description": "Refresh your interior with high-quality carpet and headliner replacements that provide durability and complement your car’s design."
+      "title": " Carpeting and Headliner Replacement",
+      "description": "Refresh your car’s interior with our Carpeting and Headliner Replacement services. We offer high-quality replacement options that not only improve the look and feel of your classic car but also provide long-lasting durability. Choose from a range of materials and colors that complement your vehicle’s design, ensuring a comfortable, stylish, and well-maintained interior."
     }
             ]
         },
