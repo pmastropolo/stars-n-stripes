@@ -8,10 +8,22 @@ export default defineConfig({
     react(),
     sitemap({
       hostname: "https://starsnstripesautomotive.com", // Your website's URL
-      outDir: 'dist',  // This specifies where to generate the sitemap.xml
+      outDir: 'dist',  // Where to generate sitemap.xml
+      dynamicRoutes: [
+        "/",
+        "/about",
+        "/contact",
+        "/faq",
+        "/gallery",
+        "/services",
+        "/single-service", // If applicable
+        "/privacy-policy",
+        "/terms-and-conditions",
+        "/accessibility-statement",
+      ],
     }),
   ],
   build: {
-    sourcemap: true,  // optional for better debugging
+    sourcemap: true,  // Optional for debugging
   },
 });
