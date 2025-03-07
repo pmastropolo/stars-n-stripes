@@ -43,8 +43,13 @@
                 "title": "Interior",
                 "link": "/service-single/5",
                 "key": "servicetwo"
+            },
+            {
+                "title": "Liquid Wraps and Vinyl",
+                "link": "/service-single/6",
+                "key": "servicetwo"
             }
-
+            
         ]
     },
     {

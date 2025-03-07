@@ -204,7 +204,7 @@
     },
     {
       "title": " Carpeting and Headliner Replacement",
-      "description": "Refresh your car’s interior with our Carpeting and Headliner Replacement services. We offer high-quality replacement options that not only improve the look and feel of your classic car but also provide long-lasting durability. Choose from a range of materials and colors that complement your vehicle’s design, ensuring a comfortable, stylish, and well-maintained interior."
+      "description": "Refresh your cars interior with our Carpeting and Headliner Replacement services. We offer high-quality replacement options that not only improve the look and feel of your classic car but also provide long-lasting durability. Choose from a range of materials and colors that complement your vehicle’s design, ensuring a comfortable, stylish, and well-maintained interior."
     }
             ]
         },
@@ -232,32 +232,36 @@
     {
         "id": 6,
         "service_details": {
-            "title": "AutoCare Solutions - Tire Services",
-            "description": "At AutoCare Solutions, we understand that your tires are a critical component of your vehicle's performance, safety, and overall driving experience. Our tire services are designed to ensure that your tires are in optimal condition, providing you with the traction, handling, and comfort you deserve. Explore our comprehensive tire services below:",
+            "title": "Liquid Wraps and Vinyl",
+            "description": "At Stars and Stripes Automotive LLC, we specialize in high-quality liquid wraps and vinyl to transform and protect your vehicle. Whether you want a striking new look, a durable protective layer, or a temporary color change, our expert team provides seamless wrap applications that enhance your car’s style and longevity. From full-color changes to custom graphics and specialty finishes, we offer premium solutions tailored to your vision.",
             "services": [
                 {
-                    "title": "Tire Rotation",
-                    "description": "Regular tire rotation is essential for even tread wear and longevity. Our technicians will rotate your tires according to your vehicle's specifications, promoting balanced wear patterns and extending the life of your tires."
-                },
-                {
-                    "title": "Tire Balancing",
-                    "description": "Imbalanced tires can lead to uneven wear, vibrations, and handling issues. Our precision tire balancing services ensure that each tire and wheel assembly is balanced, enhancing your vehicle's ride comfort and overall performance."
-                },
-                {
-                    "title": "Wheel Alignment",
-                    "description": "Proper wheel alignment is crucial for maintaining vehicle stability and preventing uneven tire wear. Our advanced alignment equipment and skilled technicians will ensure that your wheels are aligned to manufacturer specifications."
-                },
-                {
-                    "title": "Tire Repair",
-                    "description": "If you've experienced a flat tire or puncture, our tire repair services are here to help. We'll assess the damage and, when possible, perform a professional repair to get you back on the road safely."
-                }
+                    "title": "Custom Vinyl Wraps",
+                    "description": "Upgrade your vehicles look with our Custom Vinyl Wraps. Choose from an extensive selection of colors, finishes, and textures, including matte, gloss, satin, carbon fiber, and chrome. Our precision installation ensures a flawless fit, giving your car a fresh, stylish appearance while protecting the factory paint underneath."
+                  },
+                  {
+                    "title": "Liquid Wraps (Removable Coatings)",
+                    "description": "Experience the versatility of Liquid Wraps—a spray-applied, peelable coating that allows you to change your car’s color or finish while adding a layer of protection. Available in a wide range of shades and effects, including metallics and pearlescents, liquid wraps provide a durable, removable alternative to traditional paint jobs."
+                  },
+                  {
+                    "title": "Paint Protection & Clear Wraps",
+                    "description": "Preserve your vehicles pristine finish with our Paint Protection and Clear Wraps. Designed to guard against rock chips, road debris, and UV damage, these wraps provide a virtually invisible shield while maintaining your car’s original color and shine. Ideal for daily drivers and high-end vehicles alike."
+                  },
+                  {
+                    "title": "Custom Graphics and Accents",
+                    "description": "Personalize your ride with Custom Graphics and Accent Wraps. Whether you want racing stripes, decals, or partial wraps for mirrors, roofs, or hoods, we offer precise vinyl applications that make your vehicle stand out. Our team works with you to design unique, eye-catching details that complement your car’s style."
+                  },
+                  {
+                    "title": "Wrap Removal and Reapplication",
+                    "description": "Need a change? Our Wrap Removal and Reapplication service makes it easy to refresh your vehicle’s look. We carefully remove old vinyl or liquid wraps without damaging your car’s paint, preparing it for a brand-new design. Whether you're upgrading to a new color or switching styles, we ensure a smooth transition."
+                  }
             ]
         },
         "similar_services": [
             {
                 "id": 1,
-                "title": "Steering Repair",
-                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+                "title": "Engine Rebuilding and Performance Upgrades",
+                "description": "Give your engine new life with powerful rebuilds and performance upgrades. We bring muscle back to your ride.",
                 "icon": "/assets/img/icon/service-icon-1.svg"
             },
             {

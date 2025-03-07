@@ -1,73 +1,205 @@
 [
     {
         "id": 1,
-        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-1.png",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-21.png",
         "alt": "Photo",
         "orientation": ""
     },
     {
         "id": 2,
-        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-5.png",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-23.png",
         "alt": "Photo",
-        "orientation": "vertical"
+        "orientation": ""
     },
     {
         "id": 3,
-        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-4.png",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-20.png",
         "alt": "Photo",
         "orientation": "horizontal"
     },
     {
         "id": 4,
-        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-2.png",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-459-344-gallery-image-2.png",
         "alt": "Photo",
         "orientation": ""
     },
     {
         "id": 5,
-        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-6.png",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-459-344-gallery-image-5.png",
         "alt": "Photo",
         "orientation": ""
     },
     {
         "id": 6,
-        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-7.png",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-459-344-gallery-image-6.png",
         "alt": "Photo",
         "orientation": ""
     },
     {
         "id": 7,
-        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-3.png",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-459-344-gallery-image-4.png",
         "alt": "Photo",
         "orientation": ""
     },
     {
         "id": 8,
-        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-8.png",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-19.png",
         "alt": "Photo",
-        "orientation": "horizontal"
+        "orientation": ""
     },
     {
         "id": 9,
-        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-9.png",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-18.png",
         "alt": "Photo",
         "orientation": ""
     },
     {
         "id": 10,
-        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-10.png",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-17.png",
         "alt": "Photo",
         "orientation": ""
     },
     {
         "id": 11,
-        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-11.png",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-16.png",
         "alt": "Photo",
-        "orientation": "horizontal"
+        "orientation": ""
     },
     {
         "id": 12,
-        "thumbnail": "/assets/img/gallery/stars-and-stripes-automotive-llc-gallery-image-12.png",
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-15.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 13,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-14.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 14,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-13.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 15,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-12.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 16,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-11.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 17,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-10.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 18,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-9.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 19,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-8.png",
+        "alt": "Photo",
+        "orientation": "vertical"
+    },
+    {
+        "id": 20,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-7.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 21,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-6.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 22,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-5.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 23,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-4.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 24,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-3.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 25,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-2.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 26,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-612-344-gallery-image-1.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 27,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-459-344-gallery-image-7.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 28,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-459-344-gallery-image-8.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 29,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-459-344-gallery-image-9.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 30,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-459-344-gallery-image-10.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 31,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-459-344-gallery-image-11.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 32,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-459-344-gallery-image-12.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 33,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-459-344-gallery-image-13.png",
+        "alt": "Photo",
+        "orientation": ""
+    },
+    {
+        "id": 34,
+        "thumbnail": "/assets/img/gallery/stars-and-stripes-459-344-gallery-image-14.png",
         "alt": "Photo",
         "orientation": ""
     }

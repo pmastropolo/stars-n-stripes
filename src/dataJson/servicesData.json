@@ -28,5 +28,11 @@
         "img": "/assets/img/service/leather-car-seats-interior-car.jpg",
         "title": "Custom Upholstery and Interior Design",
         "desp": "Upgrade your rides interior with rugged, custom upholstery and design. Comfort and style, built to last."
+    },
+    {
+        "id": 6,
+        "img": "/assets/img/service/colorful-green-car-vinyl-wrap-image.jpg",
+        "title": "Liquid Wraps and Vinyl",
+        "desp": "Enhance your vehicles style and protection with high-quality liquid and vinyl wraps in a variety of colors and finishes."
     }
 ]
