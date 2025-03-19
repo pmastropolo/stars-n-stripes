@@ -30,7 +30,7 @@ const ChooseUs = () => {
               {list.map((item) => (
                 <h3
                   key={item.title}
-                  className="ak-stroke-text hover-color-changes"
+                  className="ak-stroke-text"
                 >
                   {item.title}
                 </h3>
