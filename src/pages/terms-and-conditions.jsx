@@ -1,9 +1,13 @@
-import React from "react";
 import CommonPageHero from "../components/CommonPageHero/CommonPageHero";
+import SEO from "../components/SEO";
 
 const TermsCon = () => {
     return (
         <>
+            <SEO
+              title="Terms and Conditions | Stars & Stripes Automotive"
+              description="Review the terms and conditions for using Stars & Stripes Automotive's website and services."
+            />
             <CommonPageHero title={"Terms and Conditions"} />
             <div className="container mx-auto p-6">
                 <p className="mb-4">Welcome to Stars and Stripes Automotive, LLC. These terms and conditions outline the rules and regulations for the use of our website and services.</p>

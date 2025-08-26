@@ -1,9 +1,13 @@
-import React from "react";
 import CommonPageHero from "../components/CommonPageHero/CommonPageHero";
+import SEO from "../components/SEO";
 
 const AccessState = () => {
     return (
         <>
+                <SEO
+          title="Accessibility Statement | Stars & Stripes Automotive"
+          description="Read about our commitment to digital accessibility for all visitors."
+        />
         <CommonPageHero title={"Accessibility Statement"} />
 
     <div className="container mx-auto p-6">

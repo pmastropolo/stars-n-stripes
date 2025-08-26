@@ -1,15 +1,19 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 import LightGallery from "lightgallery/react";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import CommonPageHero from "../components/CommonPageHero/CommonPageHero";
+import SEO from "../components/SEO";
 
 import imageData from "../dataJson/galleryImgData.json";
 
 const Gallery = () => {
   return (
     <>
+      <SEO
+        title="Project Gallery | Stars & Stripes Automotive"
+        description="See photos of LS swaps, paint jobs, and restoration projects completed in Bessemer, Alabama."
+      />
       <CommonPageHero title={"Gallery"} />
       <div className="container">
         <div className="ak-height-75 ak-height-lg-80"></div>

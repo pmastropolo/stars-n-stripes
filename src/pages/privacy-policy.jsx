@@ -1,9 +1,13 @@
-import React from "react";
 import CommonPageHero from "../components/CommonPageHero/CommonPageHero";
+import SEO from "../components/SEO";
 
 const PriPolicy = () => {
     return (
         <>
+        <SEO
+          title="Privacy Policy | Stars & Stripes Automotive"
+          description="Understand how Stars & Stripes Automotive collects and uses personal information."
+        />
         <CommonPageHero title={"Privacy Policy"} />
         <div className="container mx-auto p-6">
 
