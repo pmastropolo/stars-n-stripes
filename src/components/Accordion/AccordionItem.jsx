@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/prop-types */
 
 const AccordionItem = ({ title, content, isOpen, onToggle, index }) => {
   return (
@@ -7,7 +7,7 @@ const AccordionItem = ({ title, content, isOpen, onToggle, index }) => {
         className={`ak-accordion-title ${isOpen ? "active" : ""}`}
         onClick={() => onToggle(index)}
       >
-        <h6>{title}</h6>
+        <h5>{title}</h5>
       </div>
       {isOpen && <div className="ak-accordion-tab">{content}</div>}
     </div>

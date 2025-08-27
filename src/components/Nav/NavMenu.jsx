@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import MenuItem from "./MenuItem"; // Ensure MenuItem is correctly imported
 import logo from "/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg";
@@ -65,7 +65,7 @@ export default function NavMenu() {
                     <img src="/assets/img/icon/phone.svg" alt="..." />
                   </span>
                 </div>
-                <h6>659-305-8483</h6>
+                <span className="h6">659-305-8483</span>
               </div>
             </Link>
           </div>
