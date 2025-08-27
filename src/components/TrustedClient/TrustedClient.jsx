@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 const imgList = [
   "/assets/img/client/trusted-client_1.png",

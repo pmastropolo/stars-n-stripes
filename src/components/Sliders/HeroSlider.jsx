@@ -1,6 +1,9 @@
 import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Parallax, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/parallax";
 import { ButtonCommon } from "../Button/Button";
 import { Link } from "react-router-dom";
 

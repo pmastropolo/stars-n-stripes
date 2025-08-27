@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
+import "react-modal-video/css/modal-video.css";
 
 export default function VideoButton({ videoId }) {
   const [isOpen, setOpen] = useState(false);

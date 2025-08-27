@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ModalVideo from "react-modal-video";
+import "react-modal-video/css/modal-video.css";
 
 import aboutVideoBg from "/assets/img/bg/car_video_bg.jpg";
 

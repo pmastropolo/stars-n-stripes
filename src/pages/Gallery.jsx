@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 import LightGallery from "lightgallery/react";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
+import "lightgallery/css/lightgallery.css";
+import "lightgallery/css/lg-thumbnail.css";
 import CommonPageHero from "../components/CommonPageHero/CommonPageHero";
 import SEO from "../components/SEO";
 

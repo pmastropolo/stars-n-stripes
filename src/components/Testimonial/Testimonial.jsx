@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/effect-fade";
 import SectionHeading from "../SectionHeading/SectionHeading";
 
 import testimaonialBgImg from "/assets/img/bg/testimaonial-img-bg.png";
