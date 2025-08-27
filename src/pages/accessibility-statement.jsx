@@ -4,10 +4,53 @@ import SEO from "../components/SEO";
 const AccessState = () => {
     return (
         <>
-                <SEO
-          title="Accessibility Statement | Stars & Stripes Automotive"
-          description="Read about our commitment to digital accessibility for all visitors."
-        />
+                  <SEO
+            title="Accessibility Statement | Stars & Stripes Automotive"
+            description="Read about our commitment to digital accessibility for all visitors."
+            keywords="accessibility statement, stars & stripes automotive"
+            canonical="https://starsnstripesautomotive.com/accessibility-statement"
+            openGraph={{
+              title: "Accessibility Statement | Stars & Stripes Automotive",
+              description:
+                "Read about our commitment to digital accessibility for all visitors.",
+              type: "website",
+              url: "https://starsnstripesautomotive.com/accessibility-statement",
+              image:
+                "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+            }}
+            twitter={{
+              card: "summary_large_image",
+              title: "Accessibility Statement | Stars & Stripes Automotive",
+              description:
+                "Read about our commitment to digital accessibility for all visitors.",
+              image:
+                "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+            }}
+            structuredData={{
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              name: "Accessibility Statement | Stars & Stripes Automotive",
+              description:
+                "Read about our commitment to digital accessibility for all visitors.",
+              mainEntity: {
+                "@type": "AutoRepair",
+                name: "Stars & Stripes Automotive",
+                image:
+                  "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+                "@id": "https://starsnstripesautomotive.com/#business",
+                url: "https://starsnstripesautomotive.com/",
+                telephone: "(659) 305-8483",
+                address: {
+                  "@type": "PostalAddress",
+                  streetAddress: "301 4th Street",
+                  addressLocality: "Bessemer",
+                  addressRegion: "AL",
+                  postalCode: "35020",
+                  addressCountry: "US",
+                },
+              },
+            }}
+          />
         <CommonPageHero title={"Accessibility Statement"} />
 
     <div className="container mx-auto p-6">

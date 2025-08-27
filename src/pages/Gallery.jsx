@@ -10,10 +10,41 @@ import imageData from "../dataJson/galleryImgData.json";
 const Gallery = () => {
   return (
     <>
-      <SEO
-        title="Project Gallery | Stars & Stripes Automotive"
-        description="See photos of LS swaps, paint jobs, and restoration projects completed in Bessemer, Alabama."
-      />
+        <SEO
+          title="Project Gallery | Stars & Stripes Automotive"
+          description="See photos of LS swaps, paint jobs, and restoration projects completed in Bessemer, Alabama."
+          keywords="auto repair gallery, LS swap photos, restoration images"
+          canonical="https://starsnstripesautomotive.com/gallery"
+          openGraph={{
+            title: "Project Gallery | Stars & Stripes Automotive",
+            description:
+              "See photos of LS swaps, paint jobs, and restoration projects completed in Bessemer, Alabama.",
+            type: "website",
+            url: "https://starsnstripesautomotive.com/gallery",
+            image:
+              "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+          }}
+          twitter={{
+            card: "summary_large_image",
+            title: "Project Gallery | Stars & Stripes Automotive",
+            description:
+              "See photos of LS swaps, paint jobs, and restoration projects completed in Bessemer, Alabama.",
+            image:
+              "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+          }}
+          structuredData={{
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            name: "Project Gallery | Stars & Stripes Automotive",
+            description:
+              "See photos of LS swaps, paint jobs, and restoration projects completed in Bessemer, Alabama.",
+            mainEntity: {
+              "@type": "ImageGallery",
+              name: "Project Gallery",
+              url: "https://starsnstripesautomotive.com/gallery",
+            },
+          }}
+        />
       <CommonPageHero title={"Gallery"} />
       <div className="container">
         <div className="ak-height-75 ak-height-lg-80"></div>

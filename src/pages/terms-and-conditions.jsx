@@ -4,10 +4,53 @@ import SEO from "../components/SEO";
 const TermsCon = () => {
     return (
         <>
-            <SEO
-              title="Terms and Conditions | Stars & Stripes Automotive"
-              description="Review the terms and conditions for using Stars & Stripes Automotive's website and services."
-            />
+              <SEO
+                title="Terms and Conditions | Stars & Stripes Automotive"
+                description="Review the terms and conditions for using Stars & Stripes Automotive's website and services."
+                keywords="terms and conditions, stars & stripes automotive"
+                canonical="https://starsnstripesautomotive.com/terms-and-conditions"
+                openGraph={{
+                  title: "Terms and Conditions | Stars & Stripes Automotive",
+                  description:
+                    "Review the terms and conditions for using Stars & Stripes Automotive's website and services.",
+                  type: "website",
+                  url: "https://starsnstripesautomotive.com/terms-and-conditions",
+                  image:
+                    "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+                }}
+                twitter={{
+                  card: "summary_large_image",
+                  title: "Terms and Conditions | Stars & Stripes Automotive",
+                  description:
+                    "Review the terms and conditions for using Stars & Stripes Automotive's website and services.",
+                  image:
+                    "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+                }}
+                structuredData={{
+                  "@context": "https://schema.org",
+                  "@type": "WebPage",
+                  name: "Terms and Conditions | Stars & Stripes Automotive",
+                  description:
+                    "Review the terms and conditions for using Stars & Stripes Automotive's website and services.",
+                  mainEntity: {
+                    "@type": "AutoRepair",
+                    name: "Stars & Stripes Automotive",
+                    image:
+                      "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+                    "@id": "https://starsnstripesautomotive.com/#business",
+                    url: "https://starsnstripesautomotive.com/",
+                    telephone: "(659) 305-8483",
+                    address: {
+                      "@type": "PostalAddress",
+                      streetAddress: "301 4th Street",
+                      addressLocality: "Bessemer",
+                      addressRegion: "AL",
+                      postalCode: "35020",
+                      addressCountry: "US",
+                    },
+                  },
+                }}
+              />
             <CommonPageHero title={"Terms and Conditions"} />
             <div className="container mx-auto p-6">
                 <p className="mb-4">Welcome to Stars and Stripes Automotive, LLC. These terms and conditions outline the rules and regulations for the use of our website and services.</p>

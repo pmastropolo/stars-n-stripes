@@ -11,6 +11,51 @@ export default function Home() {
       <SEO
         title="Stars & Stripes Automotive | Bessemer Auto Repair Experts"
         description="Bessemer's trusted shop for LS/EFI conversions, mechanical and electrical repairs, paint, and bodywork."
+        keywords="auto repair Bessemer AL, LS swaps, EFI conversions, mechanical repair, paint and bodywork"
+        canonical="https://starsnstripesautomotive.com/"
+        openGraph={{
+          title: "Stars & Stripes Automotive | Bessemer Auto Repair Experts",
+          description:
+            "Bessemer's trusted shop for LS/EFI conversions, mechanical and electrical repairs, paint, and bodywork.",
+          type: "website",
+          url: "https://starsnstripesautomotive.com/",
+          image:
+            "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+        }}
+        twitter={{
+          card: "summary_large_image",
+          title: "Stars & Stripes Automotive | Bessemer Auto Repair Experts",
+          description:
+            "Bessemer's trusted shop for LS/EFI conversions, mechanical and electrical repairs, paint, and bodywork.",
+          image:
+            "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+        }}
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "AutoRepair",
+          name: "Stars & Stripes Automotive",
+          description:
+            "Bessemer's trusted shop for LS/EFI conversions, mechanical and electrical repairs, paint, and bodywork.",
+          image:
+            "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+          "@id": "https://starsnstripesautomotive.com/#business",
+          url: "https://starsnstripesautomotive.com/",
+          telephone: "(659) 305-8483",
+          address: {
+            "@type": "PostalAddress",
+            streetAddress: "301 4th Street",
+            addressLocality: "Bessemer",
+            addressRegion: "AL",
+            postalCode: "35020",
+            addressCountry: "US",
+          },
+          openingHoursSpecification: {
+            "@type": "OpeningHoursSpecification",
+            dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday"],
+            opens: "08:00",
+            closes: "17:00",
+          },
+        }}
       />
       <HeroSlider />
       <ServiceProgres />

@@ -15,9 +15,17 @@ const Header = () => {
   const [isHeaderVisible, setIsHeaderVisible] = useState(false);
   const headerRef = useRef(null);
 
-  const handleScroll = useCallback(() => {
+  const headerHeightRef = useRef(0);
+
+  useEffect(() => {
     const header = headerRef.current;
-    const headerHeight = header.offsetHeight + 30;
+    if (header) {
+      headerHeightRef.current = header.offsetHeight + 30;
+    }
+  }, []);
+
+  const handleScroll = useCallback(() => {
+    const headerHeight = headerHeightRef.current;
     const windowTop = window.pageYOffset || document.documentElement.scrollTop;
 
     if (windowTop >= headerHeight) {

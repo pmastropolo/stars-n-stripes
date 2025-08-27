@@ -4,10 +4,53 @@ import SEO from "../components/SEO";
 const PriPolicy = () => {
     return (
         <>
-        <SEO
-          title="Privacy Policy | Stars & Stripes Automotive"
-          description="Understand how Stars & Stripes Automotive collects and uses personal information."
-        />
+          <SEO
+            title="Privacy Policy | Stars & Stripes Automotive"
+            description="Understand how Stars & Stripes Automotive collects and uses personal information."
+            keywords="privacy policy, data collection, stars & stripes automotive"
+            canonical="https://starsnstripesautomotive.com/privacy-policy"
+            openGraph={{
+              title: "Privacy Policy | Stars & Stripes Automotive",
+              description:
+                "Understand how Stars & Stripes Automotive collects and uses personal information.",
+              type: "website",
+              url: "https://starsnstripesautomotive.com/privacy-policy",
+              image:
+                "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+            }}
+            twitter={{
+              card: "summary_large_image",
+              title: "Privacy Policy | Stars & Stripes Automotive",
+              description:
+                "Understand how Stars & Stripes Automotive collects and uses personal information.",
+              image:
+                "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+            }}
+            structuredData={{
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              name: "Privacy Policy | Stars & Stripes Automotive",
+              description:
+                "Understand how Stars & Stripes Automotive collects and uses personal information.",
+              mainEntity: {
+                "@type": "AutoRepair",
+                name: "Stars & Stripes Automotive",
+                image:
+                  "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
+                "@id": "https://starsnstripesautomotive.com/#business",
+                url: "https://starsnstripesautomotive.com/",
+                telephone: "(659) 305-8483",
+                address: {
+                  "@type": "PostalAddress",
+                  streetAddress: "301 4th Street",
+                  addressLocality: "Bessemer",
+                  addressRegion: "AL",
+                  postalCode: "35020",
+                  addressCountry: "US",
+                },
+              },
+            }}
+          />
         <CommonPageHero title={"Privacy Policy"} />
         <div className="container mx-auto p-6">
 
