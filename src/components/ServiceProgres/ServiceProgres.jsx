@@ -41,7 +41,7 @@ const ServiceProgres = () => {
             }
           >
             <div className="progress-item">
-              <h4 className="ak-stroke-number color-white">{item.number}</h4>
+              <span className="ak-stroke-number color-white">{item.number}</span>
               <div className="ak-border-width"></div>
             </div>
             <div className="service-item">
@@ -53,7 +53,7 @@ const ServiceProgres = () => {
                 </Link>
               </div>
               <div className="service-info">
-                <h4 className="title">{item.title}</h4>
+                <h2 className="title">{item.title}</h2>
                 <p className="desp">{item.desp}</p>
               </div>
             </div>

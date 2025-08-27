@@ -16,13 +16,13 @@ const FrequentlyQuestions = () => {
   return (
     <div className="container">
       <div className="ak-height-75 ak-height-lg-80"></div>
-      <h4
+      <h2
         className="faq-images-title"
         data-aos="fade-left"
         data-aos-delay="700"
       >
         {title}
-      </h4>
+      </h2>
       <div className="faq-images">
         <div className="faq" data-aos="fade-up" data-aos-delay="750">
           <Accordion />
