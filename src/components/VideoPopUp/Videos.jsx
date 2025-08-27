@@ -24,7 +24,10 @@ const Videos = ({ videoId }) => {
           data-aos-duration="1000"
           data-aos-delay="200"
         />
-        <button className="video-section-btn">
+        <button
+          className="video-section-btn"
+          aria-label="Play video"
+        >
           <span className="ak-heartbeat-btn" onClick={() => setOpen(true)}>
             <span></span>
           </span>

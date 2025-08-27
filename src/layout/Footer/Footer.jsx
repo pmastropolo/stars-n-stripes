@@ -113,7 +113,11 @@ const Footer = () => {
                     onChange={(e) => setEmail(e.target.value)}
                     required
                   />
-                  <button type="submit" className="submit-btn">
+                  <button
+                    type="submit"
+                    className="submit-btn"
+                    aria-label="Subscribe to newsletter"
+                  >
                     <span className="send">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
