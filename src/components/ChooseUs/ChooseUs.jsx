@@ -44,11 +44,13 @@ const ChooseUs = () => {
             data-aos="fade-up"
             data-aos-delay="150"
           >
-            <img src={img} alt="..." />
+            <img src={img} alt="..." loading="lazy" decoding="async" />
             <img
               className="circle-img"
               src="/assets/img/chooseus/circle.png"
               alt="..."
+              loading="lazy"
+              decoding="async"
             />
           </div>
         </div>

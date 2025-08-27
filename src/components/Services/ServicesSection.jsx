@@ -22,7 +22,13 @@ const ServicesSection = ({ styleTypeTwo }) => {
                   key={item.id}
                 >
                   <Link to={`/service-single/${item.id}`} className="card-img">
-                    <img src={`${item.img}`} className="ak-bg" alt="..." />
+                    <img
+                      src={`${item.img}`}
+                      className="ak-bg"
+                      alt="..."
+                      loading="lazy"
+                      decoding="async"
+                    />
                   </Link>
                   <div className="card-info">
                     <Link

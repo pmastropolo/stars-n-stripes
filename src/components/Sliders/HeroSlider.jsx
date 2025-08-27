@@ -67,6 +67,8 @@ const HeroSlider = () => {
                 src={item.img}
                 className="ak-hero-bg ak-bg object-cover"
                 alt="..."
+                loading="lazy"
+                decoding="async"
               />
               <div className="container">
                 <div className="hero-slider-info">

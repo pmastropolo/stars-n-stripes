@@ -7,7 +7,12 @@ export const ServiceCardTwo = ({ service }) => {
     <div className="col">
       <div className="service-card-style-2" data-aos="fade-up">
         <div className="service-icon">
-          <img src={service.icon} alt={service.title} />
+          <img
+            src={service.icon}
+            alt={service.title}
+            loading="lazy"
+            decoding="async"
+          />
         </div>
         <div className="service-desp">
           <Link to={`/service-single/${service.id}`} className="title">
