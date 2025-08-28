@@ -70,7 +70,8 @@ const HeroSlider = () => {
                 src={item.img}
                 className="ak-hero-bg ak-bg object-cover"
                 alt="..."
-                loading="lazy"
+                loading="eager"
+                fetchPriority="high"
                 decoding="async"
               />
               <div className="container">
@@ -89,7 +90,7 @@ const HeroSlider = () => {
                       >
                         {item.maintitle}
                       </h1>
-                      <p className="mini-title" data-swiper-parallax="400">
+                      <p className="mini-title">
                         {item.desp}
                       </p>
                     </div>
