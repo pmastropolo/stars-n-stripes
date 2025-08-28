@@ -1,9 +1,10 @@
 import React, {
-  useEffect,
   useRef,
   useState,
   useCallback,
   useMemo,
+  useLayoutEffect,
+  useEffect,
 } from "react";
 import classNames from "classnames";
 import NavMenu from "../../components/Nav/NavMenu";
@@ -17,11 +18,20 @@ const Header = () => {
 
   const headerHeightRef = useRef(0);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const header = headerRef.current;
-    if (header) {
-      headerHeightRef.current = header.offsetHeight + 30;
-    }
+    if (!header) return;
+
+    const updateHeight = () => {
+      headerHeightRef.current = header.getBoundingClientRect().height + 30;
+    };
+
+    updateHeight();
+
+    const resizeObserver = new ResizeObserver(updateHeight);
+    resizeObserver.observe(header);
+
+    return () => resizeObserver.disconnect();
   }, []);
 
   const handleScroll = useCallback(() => {
