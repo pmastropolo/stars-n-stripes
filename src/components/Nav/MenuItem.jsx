@@ -1,4 +1,3 @@
-import { isArray } from "lodash";
 import React, { useState } from "react";
 import classNames from "classnames";
 import TextAnimation from "../TextAnimation/TextAnimation";
@@ -27,7 +26,7 @@ export default function MenuItem({ props, closeNavMenu }) {
   return (
     <li className={showActivePrent}>
       <TextAnimation link={props.link} title={props.title} onClick={handleLinkClick} />
-      {isArray(props.childern) && (
+      {Array.isArray(props.childern) && (
         <>
           <ul>
             {props?.childern?.map((child) => (
