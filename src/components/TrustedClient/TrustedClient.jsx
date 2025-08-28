@@ -1,6 +1,6 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
+import swiperCss from "swiper/css?url";
 
 const imgList = [
   "/assets/img/client/trusted-client_1.png",
@@ -17,6 +17,17 @@ const imgList = [
 
 const TrustedClient = () => {
   const swiperRef = useRef(null);
+  useEffect(() => {
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "style";
+    link.href = swiperCss;
+    link.onload = () => {
+      link.onload = null;
+      link.rel = "stylesheet";
+    };
+    document.head.appendChild(link);
+  }, []);
   return (
     <div className="container">
       <div className="ak-height-125 ak-height-lg-80"></div>

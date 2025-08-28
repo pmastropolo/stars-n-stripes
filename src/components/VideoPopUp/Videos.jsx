@@ -1,11 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ModalVideo from "react-modal-video";
-import "react-modal-video/css/modal-video.css";
+import modalCss from "react-modal-video/css/modal-video.css?url";
 
 import aboutVideoBg from "/assets/img/bg/car_video_bg.jpg";
 
 const Videos = ({ videoId }) => {
   const [isOpen, setOpen] = useState(false);
+
+  useEffect(() => {
+    const link = document.createElement("link");
+    link.rel = "preload";
+    link.as = "style";
+    link.href = modalCss;
+    link.onload = () => {
+      link.onload = null;
+      link.rel = "stylesheet";
+    };
+    document.head.appendChild(link);
+  }, []);
   return (
     <>
       <div className="ak-height-150 ak-height-lg-60"></div>
