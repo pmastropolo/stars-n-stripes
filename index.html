@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Stars and Stripes Automotive, LLC</title>
 
+  <!-- Load main stylesheet asynchronously to avoid render blocking -->
   <link
-    rel="preload"
+    rel="stylesheet"
     href="/src/index.scss"
-    as="style"
-    onload="this.onload=null;this.rel='stylesheet'"
+    media="print"
+    onload="this.media='all'"
   />
   <noscript><link rel="stylesheet" href="/src/index.scss" /></noscript>
 
