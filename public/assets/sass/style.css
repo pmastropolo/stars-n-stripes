@@ -2680,6 +2680,7 @@ kbd {
 .footer.style-1 .footer-email .footer-heading-email .email-title {
   text-transform: uppercase;
   max-width: 670px;
+  font-size: 24px;
 }
 .footer.style-1 .footer-email .footer-heading-email .email-form {
   display: flex;

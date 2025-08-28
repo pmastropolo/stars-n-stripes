@@ -97,9 +97,9 @@ const Footer = () => {
               Newsletter
             </div>
             <div className="footer-heading-email">
-              <h5 className="email-title">
+              <h2 className="email-title">
                 Get exclusive deals and updates straight to your inbox!
-              </h5>
+              </h2>
               <div>
                 <p id="ak-alert-footer">{message}</p>
                 <form className="email-form" onSubmit={handleSubmit}>
