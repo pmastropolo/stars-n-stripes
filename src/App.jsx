@@ -2,9 +2,12 @@ import React, { useEffect, lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import AOS from "aos";
 
-const Main = lazy(() => import("./layout/Main"));
+// Main layout and default landing page are loaded eagerly to avoid
+// additional network request chains during initial render.
+import Main from "./layout/Main";
+import Home from "./pages/Home";
+
 const ErrorPages = lazy(() => import("./pages/ErrorPages"));
-const Home = lazy(() => import("./pages/Home"));
 const About = lazy(() => import("./pages/About"));
 const Service = lazy(() => import("./pages/Service"));
 const Gallery = lazy(() => import("./pages/Gallery"));
