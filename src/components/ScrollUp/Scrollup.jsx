@@ -1,7 +1,8 @@
-import React, { useEffect, useState, useCallback } from "react";
+import React, { useEffect, useState, useCallback, useRef } from "react";
 
 const ScrollUpButton = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const ticking = useRef(false);
 
   const handleScrollUp = useCallback((e) => {
     e.preventDefault();
@@ -13,13 +14,21 @@ const ScrollUpButton = () => {
 
   const handleScroll = useCallback(() => {
     const scrollPosition = window.scrollY;
-    setIsVisible(scrollPosition >= 350);
+
+    if (!ticking.current) {
+      window.requestAnimationFrame(() => {
+        setIsVisible(scrollPosition >= 350);
+        ticking.current = false;
+      });
+      ticking.current = true;
+    }
   }, []);
 
   useEffect(() => {
-    document.addEventListener("scroll", handleScroll);
+    const opts = { passive: true };
+    document.addEventListener("scroll", handleScroll, opts);
     return () => {
-      document.removeEventListener("scroll", handleScroll);
+      document.removeEventListener("scroll", handleScroll, opts);
     };
   }, [handleScroll]);
 
