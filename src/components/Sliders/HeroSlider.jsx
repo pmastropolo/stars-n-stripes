@@ -1,9 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Parallax, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/parallax";
+import swiperCss from "swiper/css?url";
+import paginationCss from "swiper/css/pagination?url";
+import parallaxCss from "swiper/css/parallax?url";
 import { ButtonCommon } from "../Button/Button";
 import { Link } from "react-router-dom";
 
@@ -44,6 +44,19 @@ const sliderData = [
 
 const HeroSlider = () => {
   const swiperRef = useRef(null);
+  useEffect(() => {
+    [swiperCss, paginationCss, parallaxCss].forEach((href) => {
+      const link = document.createElement("link");
+      link.rel = "preload";
+      link.as = "style";
+      link.href = href;
+      link.onload = () => {
+        link.onload = null;
+        link.rel = "stylesheet";
+      };
+      document.head.appendChild(link);
+    });
+  }, []);
   return (
     <section className="ak-slider ak-slider-hero-1">
       <Swiper

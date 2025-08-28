@@ -1,8 +1,8 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/effect-fade";
+import swiperCss from "swiper/css?url";
+import effectFadeCss from "swiper/css/effect-fade?url";
 import SectionHeading from "../SectionHeading/SectionHeading";
 
 import testimaonialBgImg from "/assets/img/bg/testimaonial-img-bg.png";
@@ -26,6 +26,19 @@ const sliderData = [
 
 const Testimonial = () => {
   const swiperRef = useRef(null);
+  useEffect(() => {
+    [swiperCss, effectFadeCss].forEach((href) => {
+      const link = document.createElement("link");
+      link.rel = "preload";
+      link.as = "style";
+      link.href = href;
+      link.onload = () => {
+        link.onload = null;
+        link.rel = "stylesheet";
+      };
+      document.head.appendChild(link);
+    });
+  }, []);
   return (
     <div className="container">
       <div className="ak-height-125 ak-height-lg-80"></div>

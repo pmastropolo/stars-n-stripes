@@ -1,15 +1,30 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 import LightGallery from "lightgallery/react";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
-import "lightgallery/css/lightgallery.css";
-import "lightgallery/css/lg-thumbnail.css";
+import lightGalleryCss from "lightgallery/css/lightgallery.css?url";
+import lgThumbnailCss from "lightgallery/css/lg-thumbnail.css?url";
 import CommonPageHero from "../components/CommonPageHero/CommonPageHero";
 import SEO from "../components/SEO";
 
 import imageData from "../dataJson/galleryImgData.json";
 
 const Gallery = () => {
+  useEffect(() => {
+    [lightGalleryCss, lgThumbnailCss].forEach((href) => {
+      const link = document.createElement("link");
+      link.rel = "preload";
+      link.as = "style";
+      link.href = href;
+      link.onload = () => {
+        link.onload = null;
+        link.rel = "stylesheet";
+      };
+      document.head.appendChild(link);
+    });
+  }, []);
+
   return (
     <>
         <SEO
