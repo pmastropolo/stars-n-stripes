@@ -7,7 +7,7 @@ const AccordionItem = ({ title, content, isOpen, onToggle, index }) => {
         className={`ak-accordion-title ${isOpen ? "active" : ""}`}
         onClick={() => onToggle(index)}
       >
-        <h5>{title}</h5>
+        <h3>{title}</h3>
       </div>
       {isOpen && <div className="ak-accordion-tab">{content}</div>}
     </div>

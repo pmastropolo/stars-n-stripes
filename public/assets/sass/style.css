@@ -4059,7 +4059,7 @@ kbd {
   position: relative;
   transition: background-color 0.3s ease;
 }
-.ak-accordion-item .ak-accordion-title h2 {
+.ak-accordion-item .ak-accordion-title h3 {
   font-size: 20px;
   font-weight: 700;
   margin: 0;
