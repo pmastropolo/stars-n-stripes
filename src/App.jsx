@@ -17,8 +17,10 @@ const AccessState = lazy(() => import("./pages/accessibility-statement"));
 
 export default function App() {
   useEffect(() => {
-    AOS.init();
-    AOS.refresh();
+    import("aos/dist/aos.css").then(() => {
+      AOS.init();
+      AOS.refresh();
+    });
   }, []);
   return (
     <Suspense fallback={<div>Loading...</div>}>
