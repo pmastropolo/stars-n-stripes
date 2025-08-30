@@ -158,7 +158,12 @@ const HeroSlider = () => {
           <Link to="tel:(406)555-0120">
             <div className="d-flex align-items-center gap-2">
               <div className="heartbeat-icon">
-                <img src="/assets/img/icon/hero-email.svg" alt="..." />
+                <img
+                  src="/assets/img/icon/hero-email.svg"
+                  alt="..."
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <p className="ak-font-18 ak-white-color ak-semi-bold">
               Starsnstripesautomotive@gmail.com
@@ -168,7 +173,12 @@ const HeroSlider = () => {
           <Link to="#">
             <div className="d-flex align-items-center gap-2">
               <div className="heartbeat-icon">
-                <img src="/assets/img/icon/heroaddress.svg" alt="..." />
+                <img
+                  src="/assets/img/icon/heroaddress.svg"
+                  alt="..."
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
               <p className="ak-font-18 ak-white-color ak-semi-bold">
               301 4th Street, Bessemer, AL 35020
@@ -177,7 +187,12 @@ const HeroSlider = () => {
           </Link>
           <div className="d-flex align-items-center gap-2">
             <div className="heartbeat-icon">
-              <img src="/assets/img/icon/hero-time.svg" alt="..." />
+              <img
+                src="/assets/img/icon/hero-time.svg"
+                alt="..."
+                loading="lazy"
+                decoding="async"
+              />
             </div>
             <p className="ak-font-18 ak-white-color ak-semi-bold">
             Tues - Fri: 8AM - 5PM

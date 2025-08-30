@@ -22,6 +22,8 @@ const ServicesDetailContent = ({ service }) => {
                 data-aos="fade-up"
                 class="img-fluid"
                 alt="..."
+                loading="lazy"
+                decoding="async"
               />
               <div class="ak-height-50 ak-height-lg-50"></div>
             </div>
@@ -39,7 +41,12 @@ const ServicesDetailContent = ({ service }) => {
               {similar_services?.map((similar_item, index) => (
                 <div className="service-card-style-2" data-aos="fade-up">
                   <div className="service-icon">
-                    <img src={similar_item.icon} alt={similar_item.title} />
+                    <img
+                      src={similar_item.icon}
+                      alt={similar_item.title}
+                      loading="lazy"
+                      decoding="async"
+                    />
                   </div>
                   <div className="service-desp">
                     <Link

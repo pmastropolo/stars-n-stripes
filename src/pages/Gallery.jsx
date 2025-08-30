@@ -61,10 +61,20 @@ const Gallery = () => {
               key={index}
               className={`item ${image.orientation}`}
             >
-              <img src={image.thumbnail} alt={image.orientation} />
+              <img
+                src={image.thumbnail}
+                alt={image.orientation}
+                loading="lazy"
+                decoding="async"
+              />
               <div className="frame gallery-hover-icon">
                 <span>
-                  <img src="/assets/img/icon/zoom.svg" alt="zoom" />
+                  <img
+                    src="/assets/img/icon/zoom.svg"
+                    alt="zoom"
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </span>
               </div>
             </Link>

@@ -141,7 +141,12 @@ const Footer = () => {
           <div className="primary-color-border"></div>
           <div className="ak-height-35 ak-height-lg-30"></div>
           <div className="footer-logo">
-            <img src={footerLogo} alt="footer-logo" />
+            <img
+              src={footerLogo}
+              alt="footer-logo"
+              loading="lazy"
+              decoding="async"
+            />
             <div className="ak-height-15 ak-height-lg-10"></div>
           </div>
           <div className="footer-content">
@@ -161,7 +166,12 @@ const Footer = () => {
                       <div className="heartbeat-icon">
                         <Link to="tel:(659)305-8483">
                           <span className="ak-heartbeat-btn">
-                            <img src="/assets/img/icon/phone.svg" alt="..." />
+                            <img
+                              src="/assets/img/icon/phone.svg"
+                              alt="..."
+                              loading="lazy"
+                              decoding="async"
+                            />
                           </span>
                         </Link>
                       </div>
@@ -194,13 +204,20 @@ const Footer = () => {
                         <img
                           src="/assets/img/icon/location.svg"
                           alt="Location"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </span>
                       {item.address}
                     </Link>
                     <Link to={`mailto:${item.email}`} className="email">
                       <span className="me-1">
-                        <img src="/assets/img/icon/email.svg" alt="Email" />
+                        <img
+                          src="/assets/img/icon/email.svg"
+                          alt="Email"
+                          loading="lazy"
+                          decoding="async"
+                        />
                       </span>
                       {item.email}
                     </Link>
@@ -209,6 +226,8 @@ const Footer = () => {
                         <img
                           src="/assets/img/icon/calender.svg"
                           alt="Calendar"
+                          loading="lazy"
+                          decoding="async"
                         />
                       </span>
                       Tues - Fri: 

@@ -35,7 +35,7 @@ export default function NavMenu() {
         <div className="ak-main_header_in">
           <div className="ak-main-header-left">
             <Link className="ak-site_branding" to="/">
-              <img src={logo} alt="..." />
+              <img src={logo} alt="..." decoding="async" />
             </Link>
           </div>
           <div className="ak-main-header-center">
@@ -62,7 +62,12 @@ export default function NavMenu() {
               <div className="d-flex align-items-center gap-3">
                 <div className="heartbeat-icon">
                   <span className="ak-heartbeat-btn">
-                    <img src="/assets/img/icon/phone.svg" alt="..." />
+                    <img
+                      src="/assets/img/icon/phone.svg"
+                      alt="..."
+                      loading="lazy"
+                      decoding="async"
+                    />
                   </span>
                 </div>
                 <span className="h6">659-305-8483</span>

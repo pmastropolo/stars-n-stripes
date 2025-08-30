@@ -41,14 +41,25 @@ const Testimonial = () => {
             className="testimonal-prev button"
             onClick={() => swiperRef.current.slideNext()}
           >
-            <img src="/assets/img/icon/prev.svg" alt="..." />
+            <img
+              src="/assets/img/icon/prev.svg"
+              alt="..."
+              loading="lazy"
+              decoding="async"
+            />
             <span> prev</span>
           </button>
           <button
             className="testimonal-next button"
             onClick={() => swiperRef.current.slidePrev()}
           >
-            <span>next</span> <img src="/assets/img/icon/next.svg" alt=".." />
+            <span>next</span>
+            <img
+              src="/assets/img/icon/next.svg"
+              alt=".."
+              loading="lazy"
+              decoding="async"
+            />
           </button>
         </div>
       </div>
@@ -111,6 +122,8 @@ const Testimonial = () => {
                     src={item.img}
                     alt="..."
                     className="testimaonial-slide-img"
+                    loading="lazy"
+                    decoding="async"
                   />
                 </div>
               </SwiperSlide>
@@ -118,7 +131,12 @@ const Testimonial = () => {
           </Swiper>
         </div>
         <div className="testimonal-img">
-          <img src={testimaonialBgImg} alt="testimonal-img" />
+          <img
+            src={testimaonialBgImg}
+            alt="testimonal-img"
+            loading="lazy"
+            decoding="async"
+          />
         </div>
       </div>
     </div>

@@ -48,7 +48,12 @@ const ServiceProgres = () => {
               <div className="heartbeat-icon">
                 <Link to="#">
                   <span className="ak-heartbeat-btn">
-                    <img src={item.icon} alt="..." />
+                    <img
+                      src={item.icon}
+                      alt="..."
+                      loading="lazy"
+                      decoding="async"
+                    />
                   </span>
                 </Link>
               </div>

@@ -33,7 +33,12 @@ const TrustedClient = () => {
           {imgList.map((item, i) => (
             <SwiperSlide key={i}>
               <div className="trusted-client">
-                <img src={item} alt="" />
+                <img
+                  src={item}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                />
               </div>
             </SwiperSlide>
           ))}

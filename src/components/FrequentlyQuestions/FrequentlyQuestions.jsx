@@ -28,13 +28,24 @@ const FrequentlyQuestions = () => {
           <Accordion />
         </div>
         <div className="images" data-aos="fade-up" data-aos-delay="950">
-          <img src={accordionImg} className="img-bg-faq" alt="Accordion Side" />
+          <img
+            src={accordionImg}
+            className="img-bg-faq"
+            alt="Accordion Side"
+            loading="lazy"
+            decoding="async"
+          />
           <div className="images-info">
             <div className="d-flex align-items-center gap-3">
               <div className="heartbeat-icon">
                 <a href={`tel:${phone}`}>
                   <span className="ak-heartbeat-btn">
-                    <img src="/assets/img/icon/phone.svg" alt="Phone Icon" />
+                    <img
+                      src="/assets/img/icon/phone.svg"
+                      alt="Phone Icon"
+                      loading="lazy"
+                      decoding="async"
+                    />
                   </span>
                 </a>
               </div>
@@ -45,7 +56,12 @@ const FrequentlyQuestions = () => {
                 href="#"
                 className="d-flex gap-2 location text-hover-animation"
               >
-                <img src="/assets/img/icon/location.svg" alt="Location Icon" />
+                <img
+                  src="/assets/img/icon/location.svg"
+                  alt="Location Icon"
+                  loading="lazy"
+                  decoding="async"
+                />
                 <span>{address}</span>
               </a>
             </div>
@@ -55,7 +71,12 @@ const FrequentlyQuestions = () => {
                 className="date text-hover-animation d-flex align-items-center gap-2"
               >
                 <span>
-                  <img src="/assets/img/icon/date-icon.svg" alt="Date Icon" />
+                  <img
+                    src="/assets/img/icon/date-icon.svg"
+                    alt="Date Icon"
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </span>
                 <span>{workingHours}</span>
               </a>

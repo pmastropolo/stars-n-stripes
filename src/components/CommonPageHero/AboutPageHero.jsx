@@ -6,7 +6,13 @@ import commpagesbg from "/assets/img/bg/commpagesbg.jpg";
 const AboutPageHero = ({ title }) => {
   return (
     <div className="common-page">
-      <img src={commpagesbg} className="bg-img ak-bg" alt="commpagesbg" />
+      <img
+        src={commpagesbg}
+        className="bg-img ak-bg"
+        alt="commpagesbg"
+        loading="lazy"
+        decoding="async"
+      />
       <div className="ak-height-100 ak-height-lg-100"></div>
       <div className="ak-height-125 ak-height-lg-40"></div>
       <div className="container">

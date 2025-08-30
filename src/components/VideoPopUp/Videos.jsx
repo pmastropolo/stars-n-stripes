@@ -24,6 +24,8 @@ const Videos = ({ videoId }) => {
           data-aos="zoom-out-down"
           data-aos-duration="1000"
           data-aos-delay="200"
+          loading="lazy"
+          decoding="async"
         />
         <button
           className="video-section-btn"

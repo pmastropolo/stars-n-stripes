@@ -47,7 +47,12 @@ const ContactInfo = () => {
               <p>{item.label} :</p>
               <div className="d-flex gap-2 align-items-center">
                 <div>
-                  <img src={item.icon} alt={item.label} />
+                  <img
+                    src={item.icon}
+                    alt={item.label}
+                    loading="lazy"
+                    decoding="async"
+                  />
                 </div>
                 <div>
                   {item.info.map((info, idx) => (
