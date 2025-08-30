@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState, memo } from "react";
 import { Link } from "react-router-dom";
 import TextAnimation from "../../components/TextAnimation/TextAnimation";
 import emailjs from "emailjs-com"; // Import emailjs
@@ -48,22 +48,22 @@ const Footer = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateEmail(email)) {
-      emailjs
-        .sendForm(
-          'service_ez0r3di', // Your Service ID from EmailJS
-          'template_x9sxs53', // Your Template ID for newsletter
-          e.target, // Send the form data
-          'veUrxXCe020uC8I6n' // Your Public Key from EmailJS
-        )
-        .then(
-          (result) => {
-            setMessage("Thank you for subscribing!");
-            setEmail(""); // Clear the input field after successful submission
-          },
-          (error) => {
-            setMessage("Oops! Something went wrong. Please try again later.");
-          }
-        );
+        emailjs
+          .sendForm(
+            'service_ez0r3di', // Your Service ID from EmailJS
+            'template_x9sxs53', // Your Template ID for newsletter
+            e.target, // Send the form data
+            'veUrxXCe020uC8I6n' // Your Public Key from EmailJS
+          )
+          .then(
+            () => {
+              setMessage("Thank you for subscribing!");
+              setEmail(""); // Clear the input field after successful submission
+            },
+            () => {
+              setMessage("Oops! Something went wrong. Please try again later.");
+            }
+          );
     } else {
       setMessage("Please enter a valid email address.");
     }
@@ -257,4 +257,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default memo(Footer);

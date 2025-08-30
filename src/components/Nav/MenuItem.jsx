@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import { useState, memo } from "react";
+import PropTypes from "prop-types";
 import classNames from "classnames";
 import TextAnimation from "../TextAnimation/TextAnimation";
 
-export default function MenuItem({ props, closeNavMenu }) {
+function MenuItem({ item, closeNavMenu }) {
   const [showMenu, setShowMenu] = useState(false);
 
   const showsubnav = () => {
@@ -23,21 +24,38 @@ export default function MenuItem({ props, closeNavMenu }) {
     }
   };
 
-  return (
-    <li className={showActivePrent}>
-      <TextAnimation link={props.link} title={props.title} onClick={handleLinkClick} />
-      {Array.isArray(props.childern) && (
-        <>
-          <ul>
-            {props?.childern?.map((child) => (
-              <li key={child.key}>
-                <TextAnimation link={child.link} title={child.title} onClick={handleLinkClick} />
-              </li>
-            ))}
-          </ul>
-          <span className={showActive} onClick={showsubnav}></span>
-        </>
-      )}
-    </li>
-  );
-}
+    return (
+      <li className={showActivePrent}>
+        <TextAnimation link={item.link} title={item.title} onClick={handleLinkClick} />
+        {Array.isArray(item.childern) && (
+          <>
+            <ul>
+              {item?.childern?.map((child) => (
+                <li key={child.key}>
+                  <TextAnimation link={child.link} title={child.title} onClick={handleLinkClick} />
+                </li>
+              ))}
+            </ul>
+            <span className={showActive} onClick={showsubnav}></span>
+          </>
+        )}
+      </li>
+    );
+  }
+
+MenuItem.propTypes = {
+  item: PropTypes.shape({
+    link: PropTypes.string,
+    title: PropTypes.string,
+    childern: PropTypes.arrayOf(
+      PropTypes.shape({
+        key: PropTypes.any,
+        link: PropTypes.string,
+        title: PropTypes.string,
+      })
+    ),
+  }).isRequired,
+  closeNavMenu: PropTypes.func,
+};
+
+export default memo(MenuItem);

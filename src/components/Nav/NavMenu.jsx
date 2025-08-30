@@ -1,10 +1,10 @@
-import { useState } from "react";
+import { useState, memo } from "react";
 import { Link } from "react-router-dom";
 import MenuItem from "./MenuItem"; // Ensure MenuItem is correctly imported
 import logo from "/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg";
 import navitemlist from "../../dataJson/navitemlist.json"; // Make sure this file exists and contains your nav data
 
-export default function NavMenu() {
+function NavMenu() {
   const [navBar, setNavbar] = useState("");
   const [navlist, setNavList] = useState("");
 
@@ -44,7 +44,7 @@ export default function NavMenu() {
                 {navitemlist?.map((item, i) => {
                   return (
                     // Pass closeNavMenu function to MenuItem so it can be used in TextAnimation
-                    <MenuItem props={item} key={i} closeNavMenu={closeNavMenu} />
+                      <MenuItem item={item} key={i} closeNavMenu={closeNavMenu} />
                   );
                 })}
               </ul>
@@ -79,3 +79,5 @@ export default function NavMenu() {
     </div>
   );
 }
+
+export default memo(NavMenu);
