@@ -21,7 +21,7 @@ const ServicesSection = ({ styleTypeTwo }) => {
                   data-aos="fade-left"
                   key={item.id}
                 >
-                  <Link to={`/service-single/${item.id}`} className="card-img">
+                  <Link to={`/service/${item.slug}`} className="card-img">
                     <img
                       src={`${item.img}`}
                       className="ak-bg"
@@ -32,13 +32,13 @@ const ServicesSection = ({ styleTypeTwo }) => {
                   </Link>
                   <div className="card-info">
                     <Link
-                      to={`/service-single/${item.id}`}
+                      to={`/service/${item.slug}`}
                       className="card-title"
                     >
                       {item.title}
                     </Link>
                     <p className="card-desp">{item.desp}</p>
-                    <MoreBtn to={`/service-single/${item.id}`}>
+                    <MoreBtn to={`/service/${item.slug}`}>
                       VIEW MORE
                     </MoreBtn>
                   </div>

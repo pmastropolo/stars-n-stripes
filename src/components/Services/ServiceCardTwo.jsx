@@ -15,11 +15,11 @@ export const ServiceCardTwo = ({ service }) => {
           />
         </div>
         <div className="service-desp">
-          <Link to={`/service-single/${service.id}`} className="title">
+          <Link to={`/service/${service.slug}`} className="title">
             {service.title}
           </Link>
           <p className="desp">{service.description}</p>
-          <MoreBtn to={`/service-single/${service.id}`} className="more-btn">
+          <MoreBtn to={`/service/${service.slug}`} className="more-btn">
             VIEW MORE
           </MoreBtn>
         </div>

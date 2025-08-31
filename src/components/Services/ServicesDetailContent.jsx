@@ -50,14 +50,14 @@ const ServicesDetailContent = ({ service }) => {
                   </div>
                   <div className="service-desp">
                     <Link
-                      to={`/service-single/${similar_item.id}`}
+                      to={`/service/${similar_item.slug}`}
                       className="title"
                     >
                       {similar_item.title}
                     </Link>
                     <p className="desp">{similar_item.description}</p>
                     <MoreBtn
-                      to={`/service-single/${similar_item.id}`}
+                      to={`/service/${similar_item.slug}`}
                       className="more-btn"
                     >
                       VIEW MORE

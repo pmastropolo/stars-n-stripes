@@ -11,8 +11,8 @@ import SEO from "../components/SEO";
 import serviceData from "../dataJson/serviceDetails.json";
 
 const SingleService = () => {
-  const { serviceId } = useParams();
-  const service = serviceData.find((post) => post.id === parseInt(serviceId));
+  const { serviceSlug } = useParams();
+  const service = serviceData.find((post) => post.slug === serviceSlug);
 
   useEffect(() => {
     if (!service) {
@@ -30,12 +30,12 @@ const SingleService = () => {
           title={`${service.service_details.title} | Stars & Stripes Automotive`}
           description={service.service_details.description}
           keywords={`${service.service_details.title}, auto repair service, Bessemer AL`}
-          canonical={`https://starsnstripesautomotive.com/service-single/${serviceId}`}
+          canonical={`https://starsnstripesautomotive.com/service/${serviceSlug}`}
           openGraph={{
             title: `${service.service_details.title} | Stars & Stripes Automotive`,
             description: service.service_details.description,
             type: "website",
-            url: `https://starsnstripesautomotive.com/service-single/${serviceId}`,
+            url: `https://starsnstripesautomotive.com/service/${serviceSlug}`,
             image:
               "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
           }}

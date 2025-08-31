@@ -33,7 +33,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route
-            path="/service-single/:serviceId"
+            path="/service/:serviceSlug"
             element={<SingleService />}
           />
           <Route path="/faq" element={<Faq />} />

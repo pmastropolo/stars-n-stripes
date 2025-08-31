@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "slug": "engine-rebuilding-performance-upgrades",
         "service_details": {
             "title": "Stars and Stripes Automotive LLC - Engine Rebuilding & Performance Upgrades",
             "description": "At Stars and Stripes Automotive LLC, we are passionate about reviving the heart of your vintage and classic cars—your engine. Our expert team specializes in restoring power, precision, and performance, ensuring your engine not only runs like new but exceeds modern standards. Whether you're looking to restore a cherished classic or elevate its performance, our skilled technicians provide high-quality engine rebuilding and performance upgrades tailored to your needs. Discover the full range of our engine services designed to optimize both reliability and power:",
@@ -30,18 +31,21 @@
         "similar_services": [
             {
                 "id": 4,
+                "slug": "classic-car-detailing-preservation",
                 "title": "Classic Car Detailing and Preservation",
                 "description": "Keep your classic sharp with top-tier detailing and preservation. We make sure your car stays tough and timeless.",
                 "icon": "/assets/img/icon/service-icon-1.svg"
             },
             {
                 "id": 2,
+                "slug": "bodywork-paint-restoration",
                 "title": "Bodywork and Paint Restoration",
                 "description": "Bring back the bold look of your car with expert bodywork and a flawless paint job. We restore your car's strength and style.",
                 "icon": "/assets/img/icon/service-icon-2.svg"
             },
             {
                 "id": 3,
+                "slug": "ls-swaps-efi-conversions",
                 "title": "LS Swaps and EFI Conversions",
                 "description": "Upgrade your ride with modern power—professional LS engine swaps and EFI conversions for reliability and performance.",
                 "icon": "/assets/img/icon/service-icon-3.svg"
@@ -50,6 +54,7 @@
     },
     {
         "id": 2,
+        "slug": "bodywork-paint-restoration",
         "service_details": {
             "title": "Bodywork and Paint Restoration",
             "description": "At Stars and Stripes Automotive LLC, we specialize in bringing the timeless beauty of your classic car back to life through expert bodywork and paint restoration services. Whether your vehicle needs rust removal, dent repair, or a complete repaint, our team of skilled technicians meticulously restore every detail to preserve your car's vintage charm. We enhance both the aesthetic appeal and value of your vehicle, ensuring it stands the test of time. With a focus on quality, craftsmanship, and attention to detail, our restoration services are designed to rejuvenate your car and maintain its classic appeal. Explore our comprehensive restoration services below:",
@@ -75,18 +80,21 @@
         "similar_services": [
             {
                 "id": 1,
+                "slug": "engine-rebuilding-performance-upgrades",
                 "title": "Engine Rebuilding and Performance Upgrades",
                 "description": "Give your engine new life with powerful rebuilds and performance upgrades. We bring muscle back to your ride.",
                 "icon": "/assets/img/icon/service-icon-1.svg"
             },
             {
                 "id": 4,
+                "slug": "classic-car-detailing-preservation",
                 "title": "Classic Car Detailing and Preservation",
                 "description": "Keep your classic sharp with top-tier detailing and preservation. We make sure your car stays tough and timeless.",
                 "icon": "/assets/img/icon/service-icon-1.svg"
             },
             {
                 "id": 3,
+                "slug": "ls-swaps-efi-conversions",
                 "title": "LS Swaps and EFI Conversions",
                 "description": "Upgrade your ride with modern power—professional LS engine swaps and EFI conversions for reliability and performance.",
                 "icon": "/assets/img/icon/service-icon-3.svg"
@@ -95,6 +103,7 @@
     },
     {
         "id": 3,
+        "slug": "ls-swaps-efi-conversions",
         "service_details": {
             "title": "LS Swaps and EFI Conversions",
             "description": "At Stars and Stripes Automotive LLC, we specialize in LS engine swaps and EFI conversions, blending modern performance, reliability, and efficiency with the classic charm of your vehicle. Whether you're looking to increase horsepower, improve drivability, or enhance fuel efficiency, our expert team ensures seamless integration of cutting-edge technology while preserving the soul of your ride. With precision engineering and high-performance solutions, we bring your classic car into the modern era without sacrificing its vintage character. Explore our LS swap and EFI conversion services below:",
@@ -120,18 +129,21 @@
         "similar_services": [
             {
                 "id": 1,
+                "slug": "engine-rebuilding-performance-upgrades",
                 "title": "Engine Rebuilding and Performance Upgrades",
                 "description": "Give your engine new life with powerful rebuilds and performance upgrades. We bring muscle back to your ride.",
                 "icon": "/assets/img/icon/service-icon-1.svg"
             },
             {
                 "id": 2,
+                "slug": "bodywork-paint-restoration",
                 "title": "Bodywork and Paint Restoration",
                 "description": "Bring back the bold look of your car with expert bodywork and a flawless paint job. We restore your car's strength and style.",
                 "icon": "/assets/img/icon/service-icon-2.svg"
             },
             {
                 "id": 4,
+                "slug": "classic-car-detailing-preservation",
                 "title": "Classic Car Detailing and Preservation",
                 "description": "Keep your classic sharp with top-tier detailing and preservation. We make sure your car stays tough and timeless.",
                 "icon": "/assets/img/icon/service-icon-1.svg"
@@ -141,6 +153,7 @@
 
     {
         "id": 4,
+        "slug": "classic-car-detailing-preservation",
         "service_details": {
         "title": "Classic Car Detailing and Preservation",
         "description": "At Stars and Stripes Automotive LLC, we specialize in high-end detailing and preservation services to maintain the timeless beauty of your vintage and classic vehicles. Our expert team uses meticulous cleaning techniques and advanced protective treatments to ensure your car remains a shining example of automotive history. Whether you're looking to refresh your car's exterior, preserve its interior, or protect its finish, we provide top-tier services that keep your classic ride in peak condition. Explore our classic car detailing and preservation services below:",
@@ -166,18 +179,21 @@
         "similar_services": [
             {
                 "id": 1,
+                "slug": "engine-rebuilding-performance-upgrades",
                 "title": "Engine Rebuilding and Performance Upgrades",
                 "description": "Give your engine new life with powerful rebuilds and performance upgrades. We bring muscle back to your ride.",
                 "icon": "/assets/img/icon/service-icon-1.svg"
             },
             {
                 "id": 2,
+                "slug": "bodywork-paint-restoration",
                 "title": "Bodywork and Paint Restoration",
                 "description": "Bring back the bold look of your car with expert bodywork and a flawless paint job. We restore your car's strength and style.",
                 "icon": "/assets/img/icon/service-icon-2.svg"
             },
             {
                 "id": 3,
+                "slug": "ls-swaps-efi-conversions",
                 "title": "LS Swaps and EFI Conversions",
                 "description": "Upgrade your ride with modern power—professional LS engine swaps and EFI conversions for reliability and performance.",
                 "icon": "/assets/img/icon/service-icon-3.svg"
@@ -186,6 +202,7 @@
     },
     {
         "id": 5,
+        "slug": "custom-upholstery-interior-design",
         "service_details": {
            "title": "Custom Upholstery and Interior Design",
   "description": "At Stars and Stripes Automotive LLC, we specialize in transforming the interiors of vintage and classic cars with bespoke upholstery and interior design services. Whether you're looking to restore original materials or create a completely custom interior, our expert craftsmanship ensures that your vehicle’s interior is as iconic as its exterior. With attention to detail and a passion for classic car restoration, we provide unique, tailored solutions to elevate your car's interior to a level of elegance and comfort that complements its legacy.",
@@ -211,18 +228,21 @@
         "similar_services": [
             {
                 "id": 1,
+                "slug": "engine-rebuilding-performance-upgrades",
                 "title": "Engine Rebuilding and Performance Upgrades",
                 "description": "Give your engine new life with powerful rebuilds and performance upgrades. We bring muscle back to your ride.",
                 "icon": "/assets/img/icon/service-icon-1.svg"
             },
             {
                 "id": 2,
+                "slug": "bodywork-paint-restoration",
                 "title": "Bodywork and Paint Restoration",
                 "description": "Bring back the bold look of your car with expert bodywork and a flawless paint job. We restore your car's strength and style.",
                 "icon": "/assets/img/icon/service-icon-2.svg"
             },
             {
                 "id": 3,
+                "slug": "ls-swaps-efi-conversions",
                 "title": "LS Swaps and EFI Conversions",
                 "description": "Upgrade your ride with modern power—professional LS engine swaps and EFI conversions for reliability and performance.",
                 "icon": "/assets/img/icon/service-icon-3.svg"
@@ -231,6 +251,7 @@
     },
     {
         "id": 6,
+        "slug": "liquid-wraps-vinyl",
         "service_details": {
             "title": "Liquid Wraps and Vinyl",
             "description": "At Stars and Stripes Automotive LLC, we specialize in high-quality liquid wraps and vinyl to transform and protect your vehicle. Whether you want a striking new look, a durable protective layer, or a temporary color change, our expert team provides seamless wrap applications that enhance your car’s style and longevity. From full-color changes to custom graphics and specialty finishes, we offer premium solutions tailored to your vision.",
@@ -260,18 +281,21 @@
         "similar_services": [
             {
                 "id": 1,
+                "slug": "engine-rebuilding-performance-upgrades",
                 "title": "Engine Rebuilding and Performance Upgrades",
                 "description": "Give your engine new life with powerful rebuilds and performance upgrades. We bring muscle back to your ride.",
                 "icon": "/assets/img/icon/service-icon-1.svg"
             },
             {
                 "id": 2,
+                "slug": "bodywork-paint-restoration",
                 "title": "Bodywork and Paint Restoration",
                 "description": "Bring back the bold look of your car with expert bodywork and a flawless paint job. We restore your car's strength and style.",
                 "icon": "/assets/img/icon/service-icon-2.svg"
             },
             {
                 "id": 3,
+                "slug": "ls-swaps-efi-conversions",
                 "title": "LS Swaps and EFI Conversions",
                 "description": "Upgrade your ride with modern power—professional LS engine swaps and EFI conversions for reliability and performance.",
                 "icon": "/assets/img/icon/service-icon-3.svg"

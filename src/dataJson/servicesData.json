@@ -1,36 +1,42 @@
 [
     {
         "id": 1,
+        "slug": "engine-rebuilding-performance-upgrades",
         "img": "/assets/img/service/old-car-engine.png",
         "title": "Engine Rebuilding and Performance Upgrades",
         "desp": "Give your engine new life with powerful rebuilds and performance upgrades. We bring muscle back to your ride."
     },
     {
         "id": 2,
+        "slug": "bodywork-paint-restoration",
         "img": "/assets/img/service/vintage-car-paint.png",
         "title": "Bodywork and Paint Restoration",
         "desp": "Bring back the bold look of your car with expert bodywork and a flawless paint job. We restore your car's strength and style."
     },
     {
         "id": 3,
+        "slug": "ls-swaps-efi-conversions",
         "img": "/assets/img/service/classic-car.jpg",
         "title": "LS Swaps and EFI Conversions",
         "desp": "Upgrade your ride with modern power—professional LS engine swaps and EFI conversions for reliability and performance."
     },
     {
         "id": 4,
+        "slug": "classic-car-detailing-preservation",
         "img": "/assets/img/service/vintage-classic-car.jpg",
         "title": "Classic Car Detailing and Preservation",
         "desp": "Keep your classic sharp with top-tier detailing and preservation. We make sure your car stays tough and timeless."
     },
     {
         "id": 5,
+        "slug": "custom-upholstery-interior-design",
         "img": "/assets/img/service/leather-car-seats-interior-car.jpg",
         "title": "Custom Upholstery and Interior Design",
         "desp": "Upgrade your rides interior with rugged, custom upholstery and design. Comfort and style, built to last."
     },
     {
         "id": 6,
+        "slug": "liquid-wraps-vinyl",
         "img": "/assets/img/service/colorful-green-car-vinyl-wrap-image.jpg",
         "title": "Liquid Wraps and Vinyl",
         "desp": "Enhance your vehicles style and protection with high-quality liquid and vinyl wraps in a variety of colors and finishes."

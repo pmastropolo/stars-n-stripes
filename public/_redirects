@@ -4,7 +4,7 @@
 /faq /index.html 200
 /gallery /index.html 200
 /service /index.html 200
-/service-single/* /index.html 200
+/service/* /index.html 200
 /privacy-policy /index.html 200
 /terms-and-conditions /index.html 200
 /accessibility-statement /index.html 200

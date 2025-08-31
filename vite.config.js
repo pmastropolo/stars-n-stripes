@@ -12,7 +12,9 @@ const serviceDetails = JSON.parse(
   readFileSync(resolve(__dirname, "src/dataJson/serviceDetails.json"), "utf-8"),
 );
 
-const serviceRoutes = serviceDetails.map(({ id }) => `/service-single/${id}`);
+const serviceRoutes = serviceDetails
+  .filter(({ slug }) => slug)
+  .map(({ slug }) => `/service/${slug}`);
 
 // https://vitejs.dev/config/
 export default defineConfig({
