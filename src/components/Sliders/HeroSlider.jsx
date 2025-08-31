@@ -181,7 +181,7 @@ const HeroSlider = () => {
                 />
               </div>
               <p className="ak-font-18 ak-white-color ak-semi-bold">
-              301 4th Street, Bessemer, AL 35020
+              301 4th Street North, Bessemer, AL 35020
               </p>
             </div>
           </Link>

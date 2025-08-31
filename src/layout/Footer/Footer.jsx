@@ -35,7 +35,7 @@ const footerDataArray = [
   {
     className: "footer-address",
     dataAosDelay: "150",
-    address: "301 4th Street, Bessemer AL 35020",
+    address: "301 4th Street North, Bessemer, AL 35020",
     email: "Starsnstripesautomotive@gmail.com",
   },
 ];

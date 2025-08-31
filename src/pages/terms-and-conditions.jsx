@@ -42,7 +42,7 @@ const TermsCon = () => {
                     telephone: "(205) 436-2056",
                     address: {
                       "@type": "PostalAddress",
-                      streetAddress: "301 4th Street",
+                      streetAddress: "301 4th Street North",
                       addressLocality: "Bessemer",
                       addressRegion: "AL",
                       postalCode: "35020",
@@ -59,7 +59,7 @@ const TermsCon = () => {
                 <p className="mb-4">By accessing this website, you accept these terms and conditions. Do not continue to use the site if you do not agree with all of the terms stated on this page.</p>
                 
                 <h3 className="text-xl font-semibold mt-4">2. Business Information</h3>
-                <p className="mb-4"><strong>Business Address:</strong> 301 4th Street, Bessemer, AL 35020</p>
+                <p className="mb-4"><strong>Business Address:</strong> 301 4th Street North, Bessemer, AL 35020</p>
                 <p className="mb-4"><strong>Business Phone Number:</strong> (205) 436-2056</p>
                 <p className="mb-4"><strong>Business Email:</strong> Starsnstripesautomotive@gmail.com</p>
                 

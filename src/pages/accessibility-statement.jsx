@@ -42,7 +42,7 @@ const AccessState = () => {
                 telephone: "(205) 436-2056",
                 address: {
                   "@type": "PostalAddress",
-                  streetAddress: "301 4th Street",
+                  streetAddress: "301 4th Street North",
                   addressLocality: "Bessemer",
                   addressRegion: "AL",
                   postalCode: "35020",
@@ -74,7 +74,7 @@ const AccessState = () => {
     <ul className="mb-4">
         <li><strong>Phone:</strong> (205) 436-2056</li>
         <li><strong>Email:</strong> starsnstripesautomotive@gmail.com</li>
-        <li><strong>Location:</strong> 301 4th Street, Bessemer, AL 35020</li>
+        <li><strong>Location:</strong> 301 4th Street North, Bessemer, AL 35020</li>
         <li><strong>Calendar:</strong> Tuesday - Saturday: 9AM - 5PM</li>
     </ul>
 

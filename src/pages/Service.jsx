@@ -47,7 +47,7 @@ const Service = () => {
               telephone: "(205) 436-2056",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "301 4th Street",
+                streetAddress: "301 4th Street North",
                 addressLocality: "Bessemer",
                 addressRegion: "AL",
                 postalCode: "35020",

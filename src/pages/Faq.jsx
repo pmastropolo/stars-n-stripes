@@ -46,7 +46,7 @@ const Faq = () => {
                 acceptedAnswer: {
                   "@type": "Answer",
                   text:
-                    "Our shop is located at 301 4th Street, Bessemer, AL 35020.",
+                    "Our shop is located at 301 4th Street North, Bessemer, AL 35020.",
                 },
               },
             ],

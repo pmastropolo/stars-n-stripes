@@ -42,7 +42,7 @@ const PriPolicy = () => {
                 telephone: "(205) 436-2056",
                 address: {
                   "@type": "PostalAddress",
-                  streetAddress: "301 4th Street",
+                  streetAddress: "301 4th Street North",
                   addressLocality: "Bessemer",
                   addressRegion: "AL",
                   postalCode: "35020",
@@ -152,7 +152,7 @@ const PriPolicy = () => {
     <h3 className="text-xl font-bold mb-2">Contact Information</h3>
     <p className="mb-4">The Company welcomes your questions or comments regarding this Policy. If you believe that the Company has not adhered to this Policy, please contact the Company at:</p>
     <p className="mb-4">Stars & Stripes Automotive, LLC</p>
-    <p className="mb-4">301 4th St N, Bessemer, AL 35020</p>
+    <p className="mb-4">301 4th Street North, Bessemer, AL 35020</p>
     <p className="mb-4">Email: starsnstripesautomotive@gmail.com</p>
     <p className="mb-4">Phone: (205) 436-2056</p>
 </div>

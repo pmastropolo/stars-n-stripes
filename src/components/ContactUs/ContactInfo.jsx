@@ -10,7 +10,7 @@ const contactData = [
   {
     label: "Address",
     icon: "/assets/img/icon/location.svg",
-    info: ["301 4th Street, Bessemer, AL 35020"],
+    info: ["301 4th Street North, Bessemer, AL 35020"],
   },
   {
     label: "Phone",
