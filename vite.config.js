@@ -32,6 +32,7 @@ const navRoutes = collectLinks(navItems).filter((route) => route && route !== "/
 
 // Additional static pages not present in the nav list
 const staticRoutes = [
+  "/faq",
   "/terms-and-conditions",
   "/privacy-policy",
   "/accessibility-statement",
