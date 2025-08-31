@@ -39,7 +39,7 @@ const PriPolicy = () => {
                   "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
                 "@id": "https://starsnstripesautomotive.com/#business",
                 url: "https://starsnstripesautomotive.com/",
-                telephone: "(659) 305-8483",
+                telephone: "(205) 436-2056",
                 address: {
                   "@type": "PostalAddress",
                   streetAddress: "301 4th Street",
@@ -154,7 +154,7 @@ const PriPolicy = () => {
     <p className="mb-4">Stars & Stripes Automotive, LLC</p>
     <p className="mb-4">301 4th St N, Bessemer, AL 35020</p>
     <p className="mb-4">Email: starsnstripesautomotive@gmail.com</p>
-    <p className="mb-4">Phone: (659) 305-8483</p>
+    <p className="mb-4">Phone: (205) 436-2056</p>
 </div>
 
 

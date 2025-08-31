@@ -155,7 +155,7 @@ const HeroSlider = () => {
       </div>
       <div className="container">
         <div className="hero-contact-info">
-          <Link to="tel:(406)555-0120">
+          <Link to="tel:(205)436-2056">
             <div className="d-flex align-items-center gap-2">
               <div className="heartbeat-icon">
                 <img

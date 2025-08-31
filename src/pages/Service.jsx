@@ -44,7 +44,7 @@ const Service = () => {
                 "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
               "@id": "https://starsnstripesautomotive.com/#business",
               url: "https://starsnstripesautomotive.com/",
-              telephone: "(659) 305-8483",
+              telephone: "(205) 436-2056",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "301 4th Street",

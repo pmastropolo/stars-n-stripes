@@ -9,7 +9,7 @@ const footerDataArray = [
   {
     className: "footer-info",
     dataAosDelay: "0",
-    phone: "(659) 305-8483",
+    phone: "(205) 436-2056",
     desp: "Stars and Stripes Automotive LLC brings vintage and classic car dreams to life with unmatched craftsmanship and dedication.",
   },
   {
@@ -164,7 +164,7 @@ const Footer = () => {
                     <div className="ak-height-35 ak-height-lg-30"></div>
                     <div className="d-flex align-items-center gap-3">
                       <div className="heartbeat-icon">
-                        <Link to="tel:(659)305-8483">
+                        <Link to="tel:(205)436-2056">
                           <span className="ak-heartbeat-btn">
                             <img
                               src="/assets/img/icon/phone.svg"
@@ -176,7 +176,7 @@ const Footer = () => {
                         </Link>
                       </div>
                       <TextAnimation
-                        link={"tel:(659)305-8483"}
+                        link={"tel:(205)436-2056"}
                         title={item.phone}
                         classNamePass="phone white"
                       />

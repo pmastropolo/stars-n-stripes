@@ -58,7 +58,7 @@ function NavMenu() {
             </div>
           </div>
           <div className="ak-main-header-right">
-            <Link to="tel:659-305-8483">
+            <Link to="tel:205-436-2056">
               <div className="d-flex align-items-center gap-3">
                 <div className="heartbeat-icon">
                   <span className="ak-heartbeat-btn">
@@ -70,7 +70,7 @@ function NavMenu() {
                     />
                   </span>
                 </div>
-                <span className="h6">659-305-8483</span>
+                <span className="h6">205-436-2056</span>
               </div>
             </Link>
           </div>

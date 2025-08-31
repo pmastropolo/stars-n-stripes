@@ -5,7 +5,7 @@ import accordionImg from "/assets/img/stars-and-stripes-automotive-llc-side-logo
 
 const contactDetails = {
   title: " Frequently Asked Questions",
-  phone: "(659) 305-8483",
+  phone: "(205) 436-2056",
   address: "301 4th Street, Bessemer, AL 35020",
   workingHours: "Tuesday - Saturday: 9AM - 5PM",
 };

@@ -39,7 +39,7 @@ const AccessState = () => {
                   "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
                 "@id": "https://starsnstripesautomotive.com/#business",
                 url: "https://starsnstripesautomotive.com/",
-                telephone: "(659) 305-8483",
+                telephone: "(205) 436-2056",
                 address: {
                   "@type": "PostalAddress",
                   streetAddress: "301 4th Street",
@@ -72,7 +72,7 @@ const AccessState = () => {
     <h3 className="text-xl font-semibold mb-4">Feedback</h3>
     <p className="mb-4">We welcome your feedback on the accessibility of our website. Please let us know if you encounter accessibility barriers on our site:</p>
     <ul className="mb-4">
-        <li><strong>Phone:</strong> (659) 305-8483</li>
+        <li><strong>Phone:</strong> (205) 436-2056</li>
         <li><strong>Email:</strong> starsnstripesautomotive@gmail.com</li>
         <li><strong>Location:</strong> 301 4th Street, Bessemer, AL 35020</li>
         <li><strong>Calendar:</strong> Tuesday - Saturday: 9AM - 5PM</li>
@@ -100,7 +100,7 @@ const AccessState = () => {
     <p className="mb-4">We are actively working to add captions to all video content. In the meantime, please contact us for alternative formats.</p>
 
     <h3 className="text-xl font-semibold mb-4">Instructions on how to report issues</h3>
-    <p className="mb-4">Please email us at starsnstripesautomotive@gmail.com or call us at (659) 305-8483 to report any accessibility issues you encounter. Your feedback helps us improve our site for everyone.</p>
+    <p className="mb-4">Please email us at starsnstripesautomotive@gmail.com or call us at (205) 436-2056 to report any accessibility issues you encounter. Your feedback helps us improve our site for everyone.</p>
 
     <h3 className="text-xl font-semibold mb-4">Assessment Approach</h3>
     <p className="mb-4">Stars and Stripes Automotive, LLC assessed the accessibility of our website by the following approaches:</p>

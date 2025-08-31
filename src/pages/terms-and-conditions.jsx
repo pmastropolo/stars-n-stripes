@@ -39,7 +39,7 @@ const TermsCon = () => {
                       "https://starsnstripesautomotive.com/assets/img/icon/stars-and-stripes-automotive-llc-logo.svg",
                     "@id": "https://starsnstripesautomotive.com/#business",
                     url: "https://starsnstripesautomotive.com/",
-                    telephone: "(659) 305-8483",
+                    telephone: "(205) 436-2056",
                     address: {
                       "@type": "PostalAddress",
                       streetAddress: "301 4th Street",
@@ -60,7 +60,7 @@ const TermsCon = () => {
                 
                 <h3 className="text-xl font-semibold mt-4">2. Business Information</h3>
                 <p className="mb-4"><strong>Business Address:</strong> 301 4th Street, Bessemer, AL 35020</p>
-                <p className="mb-4"><strong>Business Phone Number:</strong> (659) 305-8483</p>
+                <p className="mb-4"><strong>Business Phone Number:</strong> (205) 436-2056</p>
                 <p className="mb-4"><strong>Business Email:</strong> Starsnstripesautomotive@gmail.com</p>
                 
                 <h3 className="text-xl font-semibold mt-4">3. Services</h3>
@@ -79,7 +79,7 @@ const TermsCon = () => {
                 <p className="mb-4">We reserve the right to modify or replace these terms at any time. Any changes will be posted on this page, and continued use of the site constitutes acceptance of the updated terms.</p>
                 
                 <h3 className="text-xl font-semibold mt-4">8. Contact Information</h3>
-                <p>If you have any questions regarding these terms, please contact us at <strong>Starsnstripesautomotive@gmail.com</strong> or call <strong>(659) 305-8483</strong>.</p>
+                <p>If you have any questions regarding these terms, please contact us at <strong>Starsnstripesautomotive@gmail.com</strong> or call <strong>(205) 436-2056</strong>.</p>
             </div>
         </>
     );

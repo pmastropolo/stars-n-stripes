@@ -15,7 +15,7 @@ const contactData = [
   {
     label: "Phone",
     icon: "/assets/img/icon/phone.svg",
-    info: ["(659) 305-8483"],
+    info: ["(205) 436-2056"],
   },
   {
     label: "Business Hours",
