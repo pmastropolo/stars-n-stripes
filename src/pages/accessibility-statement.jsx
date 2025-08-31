@@ -75,7 +75,7 @@ const AccessState = () => {
         <li><strong>Phone:</strong> (659) 305-8483</li>
         <li><strong>Email:</strong> starsnstripesautomotive@gmail.com</li>
         <li><strong>Location:</strong> 301 4th Street, Bessemer, AL 35020</li>
-        <li><strong>Calendar:</strong> Tues - Fri: 8AM - 5PM</li>
+        <li><strong>Calendar:</strong> Tuesday - Saturday: 9AM - 5PM</li>
     </ul>
 
     <h3 className="text-xl font-semibold mb-4">Compatibility with Browsers and Assistive Technology</h3>

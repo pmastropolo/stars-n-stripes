@@ -195,7 +195,7 @@ const HeroSlider = () => {
               />
             </div>
             <p className="ak-font-18 ak-white-color ak-semi-bold">
-            Tues - Fri: 8AM - 5PM
+            Tuesday - Saturday: 9AM - 5PM
             </p>
           </div>
         </div>

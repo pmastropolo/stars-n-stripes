@@ -7,7 +7,7 @@ const contactDetails = {
   title: " Frequently Asked Questions",
   phone: "(659) 305-8483",
   address: "301 4th Street, Bessemer, AL 35020",
-  workingHours: "Tues - Fri: 8AM - 5PM",
+  workingHours: "Tuesday - Saturday: 9AM - 5PM",
 };
 
 const FrequentlyQuestions = () => {

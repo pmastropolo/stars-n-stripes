@@ -230,8 +230,8 @@ const Footer = () => {
                           decoding="async"
                         />
                       </span>
-                      Tues - Fri: 
-                      8AM - 5PM
+                      Tuesday - Saturday:
+                      9AM - 5PM
                     </p>
                   </div>
                 )}

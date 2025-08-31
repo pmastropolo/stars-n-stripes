@@ -51,8 +51,14 @@ const Contact = () => {
             },
             openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
-              dayOfWeek: ["Tuesday", "Wednesday", "Thursday", "Friday"],
-              opens: "08:00",
+              dayOfWeek: [
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+              ],
+              opens: "09:00",
               closes: "17:00",
             },
           },

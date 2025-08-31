@@ -20,7 +20,7 @@ const contactData = [
   {
     label: "Business Hours",
     icon: "/assets/img/icon/date-icon.svg",
-    info: ["Tuesday - Friday: 8:00 AM - 5:00 PM"],
+    info: ["Tuesday - Saturday: 9:00 AM - 5:00 PM"],
   },
 ];
 
