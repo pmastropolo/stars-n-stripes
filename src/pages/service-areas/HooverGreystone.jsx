@@ -53,11 +53,28 @@ const HooverGreystone = () => {
       />
       <CommonPageHero title={"Hoover, AL (Greystone)"} />
       <section className="py-80">
-        <div className="container">
+        <div className="container space-y-6">
           <p>
             Hoover&apos;s Greystone area is known for its custom homes and luxury vehicles.
-            We provide tailored restoration and performance services that match the
-            high expectations of Greystone car owners.
+            We provide tailored restoration and performance services that match the high
+            expectations of Greystone car owners.
+          </p>
+          <p>
+            Stars &amp; Stripes Automotive specializes in meticulous craftsmanship for
+            high-end classics and exotic builds. Our technicians treat every project with
+            the care it deserves, delivering reliability and show-stopping style for
+            Greystone&apos;s most discerning enthusiasts.
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Classic car restoration in Hoover&apos;s Greystone community</li>
+            <li>High-performance upgrades for luxury and exotic vehicles</li>
+            <li>Custom fabrication and pro-touring builds</li>
+            <li>Full body and paint restoration services</li>
+            <li>Maintenance and preservation for collector cars</li>
+          </ul>
+          <p>
+            From vintage muscle cars to European exotics, our Greystone clients rely on
+            us to keep their investments performing and looking their best.
           </p>
         </div>
       </section>

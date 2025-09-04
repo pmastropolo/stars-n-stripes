@@ -39,7 +39,7 @@ const ServiceAreas = () => {
       <CommonPageHero title={"Service Areas"} />
       <section className="py-80">
         <div className="container">
-          <ul>
+          <ul className="list-disc pl-6 space-y-2">
             <li>
               <Link to="/service-areas/vestavia-hills-al">Vestavia Hills, AL</Link>
             </li>

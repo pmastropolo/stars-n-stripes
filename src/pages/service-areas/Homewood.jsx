@@ -53,11 +53,28 @@ const Homewood = () => {
       />
       <CommonPageHero title={"Homewood, AL"} />
       <section className="py-80">
-        <div className="container">
+        <div className="container space-y-6">
           <p>
-            Homewood is home to many young professionals and passionate collectors.
-            We offer custom builds and restoration solutions that match the style and
+            Homewood is home to many young professionals and passionate collectors. We
+            offer custom builds and restoration solutions that match the style and
             performance goals of this vibrant community.
+          </p>
+          <p>
+            Whether you&apos;re reviving a barn find or commissioning a modern
+            restomod, Stars &amp; Stripes Automotive provides craftsmanship you can
+            count on. Our team blends classic aesthetics with cutting-edge technology
+            so your vehicle looks timeless and drives like new.
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Classic car restoration in Homewood, Alabama</li>
+            <li>Street rod fabrication and custom projects</li>
+            <li>Engine builds, dyno tuning, and performance upgrades</li>
+            <li>Body restoration, paint, and metal fabrication</li>
+            <li>Interior redesigns with modern comfort features</li>
+          </ul>
+          <p>
+            From weekend cruisers to show-winning builds, Homewood enthusiasts trust us
+            to handle every detail.
           </p>
         </div>
       </section>

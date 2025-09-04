@@ -53,11 +53,30 @@ const VestaviaHills = () => {
       />
       <CommonPageHero title={"Vestavia Hills, AL"} />
       <section className="py-80">
-        <div className="container">
+        <div className="container space-y-6">
           <p>
             Vestavia Hills is an affluent suburb of Birmingham with a strong demand for
             collector car restoration. Our team delivers high-end mechanical work,
-            custom builds, and preservation services for discerning owners across the area.
+            custom builds, and preservation services for discerning owners across the
+            area.
+          </p>
+          <p>
+            From concours-level restorations to modern restomods, Stars &amp; Stripes
+            Automotive brings decades of experience to every project. We understand what
+            it takes to preserve the heritage of a classic while integrating the modern
+            performance and comfort features local drivers expect.
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Classic car restoration in Vestavia Hills, Alabama</li>
+            <li>Custom hot rod builds and pro-touring conversions</li>
+            <li>Performance upgrades, engine swaps, and tuning</li>
+            <li>Rust repair, bodywork, and show-quality paint</li>
+            <li>Complete interior fabrication and modernization</li>
+          </ul>
+          <p>
+            Whether you&apos;re preserving a family heirloom or building a one-of-a-kind
+            performance machine, our Vestavia Hills clients count on us for
+            craftsmanship and attention to detail.
           </p>
         </div>
       </section>

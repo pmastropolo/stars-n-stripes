@@ -53,11 +53,28 @@ const Chelsea = () => {
       />
       <CommonPageHero title={"Chelsea, AL"} />
       <section className="py-80">
-        <div className="container">
+        <div className="container space-y-6">
           <p>
             Chelsea is rapidly growing with new custom homes and incoming car enthusiasts.
-            We support this expanding community with expert restoration, performance upgrades,
-            and custom builds tailored to each owner&apos;s vision.
+            We support this expanding community with expert restoration, performance
+            upgrades, and custom builds tailored to each owner&apos;s vision.
+          </p>
+          <p>
+            Our craftsmen breathe new life into classic vehicles while giving modern
+            drivers the reliability and technology they expect. From small repairs to
+            full frame-off restorations, Stars &amp; Stripes Automotive is a trusted
+            partner for Chelsea collectors.
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Classic car restoration in Chelsea, Alabama</li>
+            <li>Bespoke hot rods and custom builds</li>
+            <li>Performance upgrades and chassis tuning</li>
+            <li>High-quality paint, bodywork, and rust repair</li>
+            <li>Modern amenities like A/C, EFI, and disc brakes</li>
+          </ul>
+          <p>
+            Join the growing number of Chelsea enthusiasts who trust our team to bring
+            their automotive dreams to the road.
           </p>
         </div>
       </section>

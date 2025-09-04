@@ -53,11 +53,28 @@ const MountainBrook = () => {
       />
       <CommonPageHero title={"Mountain Brook, AL"} />
       <section className="py-80">
-        <div className="container">
+        <div className="container space-y-6">
           <p>
             Mountain Brook is among the wealthiest areas in Alabama, making it ideal for
             premium restoration work and bespoke custom builds. We cater to clients who
             expect exceptional craftsmanship and attention to detail.
+          </p>
+          <p>
+            At Stars &amp; Stripes Automotive, every build receives personalized
+            attention from our seasoned technicians. We combine old-school artistry with
+            modern engineering to create vehicles worthy of Mountain Brook&apos;s proud
+            automotive culture.
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Classic car restoration in Mountain Brook, Alabama</li>
+            <li>Concours-level paint, bodywork, and detailing</li>
+            <li>Custom performance builds and engine swaps</li>
+            <li>Chassis upgrades and suspension tuning</li>
+            <li>Interior refurbishment with premium materials</li>
+          </ul>
+          <p>
+            From rare European imports to American muscle, our team delivers results that
+            stand out at local shows and national events alike.
           </p>
         </div>
       </section>
