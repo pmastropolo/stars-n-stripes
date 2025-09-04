@@ -38,9 +38,18 @@ const staticRoutes = [
   "/accessibility-statement",
 ];
 
+// Extract service area routes defined in the application routes
+const appFileContent = readFileSync(
+  resolve(__dirname, "src/App.jsx"),
+  "utf-8",
+);
+const serviceAreaRoutes = Array.from(
+  appFileContent.matchAll(/path="(\/service-areas[^"]*)"/g),
+).map(([, route]) => route);
+
 // Combine and deduplicate all routes for the sitemap
 const allRoutes = Array.from(
-  new Set([...navRoutes, ...staticRoutes, ...serviceRoutes]),
+  new Set([...navRoutes, ...staticRoutes, ...serviceRoutes, ...serviceAreaRoutes]),
 );
 
 // https://vitejs.dev/config/
