@@ -20,6 +20,7 @@ const footerDataArray = [
       { title: "Services", link: "/service" },
       { title: "Gallery", link: "/gallery" },
       { title: "Contact Us", link: "/contact" },
+      { title: "Service Areas", link: "/service-areas" },
     ],
   },
   {

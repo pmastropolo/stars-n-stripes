@@ -80,7 +80,7 @@ const Header = () => {
   );
   return (
     <header ref={headerRef} className={navClass}>
-      <NavMenu props={navitemlist} />
+      <NavMenu items={navitemlist} />
       <div className="nav-bar-border"></div>
     </header>
   );

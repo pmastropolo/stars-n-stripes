@@ -17,6 +17,12 @@ const SingleService = lazy(() => import("./pages/SingleService"));
 const TermsCon = lazy(() => import("./pages/terms-and-conditions"));
 const PriPolicy = lazy(() => import("./pages/privacy-policy"));
 const AccessState = lazy(() => import("./pages/accessibility-statement"));
+const ServiceAreas = lazy(() => import("./pages/ServiceAreas"));
+const VestaviaHills = lazy(() => import("./pages/service-areas/VestaviaHills"));
+const MountainBrook = lazy(() => import("./pages/service-areas/MountainBrook"));
+const HooverGreystone = lazy(() => import("./pages/service-areas/HooverGreystone"));
+const Homewood = lazy(() => import("./pages/service-areas/Homewood"));
+const Chelsea = lazy(() => import("./pages/service-areas/Chelsea"));
 
 export default function App() {
   useEffect(() => {
@@ -35,6 +41,27 @@ export default function App() {
           <Route
             path="/service/:serviceSlug"
             element={<SingleService />}
+          />
+          <Route path="/service-areas" element={<ServiceAreas />} />
+          <Route
+            path="/service-areas/vestavia-hills-al"
+            element={<VestaviaHills />}
+          />
+          <Route
+            path="/service-areas/mountain-brook-al"
+            element={<MountainBrook />}
+          />
+          <Route
+            path="/service-areas/hoover-al-greystone"
+            element={<HooverGreystone />}
+          />
+          <Route
+            path="/service-areas/homewood-al"
+            element={<Homewood />}
+          />
+          <Route
+            path="/service-areas/chelsea-al"
+            element={<Chelsea />}
           />
           <Route path="/faq" element={<Faq />} />
           <Route path="/gallery" element={<Gallery />} />
