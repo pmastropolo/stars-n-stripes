@@ -24,6 +24,7 @@ const HooverGreystone = lazy(() => import("./pages/service-areas/HooverGreystone
 const Homewood = lazy(() => import("./pages/service-areas/Homewood"));
 const Chelsea = lazy(() => import("./pages/service-areas/Chelsea"));
 const Alabaster = lazy(() => import("./pages/service-areas/Alabaster"));
+const Bessemer = lazy(() => import("./pages/service-areas/Bessemer"));
 const BirminghamSouthside = lazy(() => import("./pages/service-areas/BirminghamSouthside"));
 const BirminghamCrestwoodAvondale = lazy(() => import("./pages/service-areas/BirminghamCrestwoodAvondale"));
 const BirminghamOverTheMountain = lazy(() => import("./pages/service-areas/BirminghamOverTheMountain"));
@@ -31,6 +32,7 @@ const Fultondale = lazy(() => import("./pages/service-areas/Fultondale"));
 const Gardendale = lazy(() => import("./pages/service-areas/Gardendale"));
 const Helena = lazy(() => import("./pages/service-areas/Helena"));
 const HooverRiverchase = lazy(() => import("./pages/service-areas/HooverRiverchase"));
+const Hueytown = lazy(() => import("./pages/service-areas/Hueytown"));
 const Irondale = lazy(() => import("./pages/service-areas/Irondale"));
 const LakeView = lazy(() => import("./pages/service-areas/LakeView"));
 const LibertyPark = lazy(() => import("./pages/service-areas/LibertyPark"));
@@ -113,6 +115,10 @@ export default function App() {
             element={<Alabaster />}
           />
           <Route
+            path="/service-areas/bessemer-al"
+            element={<Bessemer />}
+          />
+          <Route
             path="/service-areas/birmingham-al-southside"
             element={<BirminghamSouthside />}
           />
@@ -139,6 +145,10 @@ export default function App() {
           <Route
             path="/service-areas/hoover-al-riverchase"
             element={<HooverRiverchase />}
+          />
+          <Route
+            path="/service-areas/hueytown-al"
+            element={<Hueytown />}
           />
           <Route
             path="/service-areas/irondale-al"

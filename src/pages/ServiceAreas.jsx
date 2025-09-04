@@ -59,6 +59,9 @@ const ServiceAreas = () => {
               <Link to="/service-areas/alabaster-al">Alabaster, AL</Link>
             </li>
             <li>
+              <Link to="/service-areas/bessemer-al">Bessemer, AL</Link>
+            </li>
+            <li>
               <Link to="/service-areas/birmingham-al-southside">Birmingham, AL (Southside)</Link>
             </li>
             <li>
@@ -78,6 +81,9 @@ const ServiceAreas = () => {
             </li>
             <li>
               <Link to="/service-areas/hoover-al-riverchase">Hoover, AL (Riverchase)</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/hueytown-al">Hueytown, AL</Link>
             </li>
             <li>
               <Link to="/service-areas/irondale-al">Irondale, AL</Link>
