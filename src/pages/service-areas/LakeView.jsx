@@ -1,6 +1,7 @@
 import CommonPageHero from "../../components/CommonPageHero/CommonPageHero";
 import Cta from "../../components/Cta/Cta";
 import SEO from "../../components/SEO";
+import NextServiceArea from "../../components/NextServiceArea/NextServiceArea";
 
 const LakeView = () => {
   return (
@@ -73,6 +74,7 @@ const LakeView = () => {
           </p>
         </div>
       </section>
+      <NextServiceArea />
       <Cta />
     </>
   );

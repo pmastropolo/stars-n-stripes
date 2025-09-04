@@ -1,6 +1,7 @@
 import CommonPageHero from "../../components/CommonPageHero/CommonPageHero";
 import Cta from "../../components/Cta/Cta";
 import SEO from "../../components/SEO";
+import NextServiceArea from "../../components/NextServiceArea/NextServiceArea";
 
 const Hueytown = () => {
   return (
@@ -75,6 +76,7 @@ const Hueytown = () => {
           </p>
         </div>
       </section>
+      <NextServiceArea />
       <Cta />
     </>
   );
