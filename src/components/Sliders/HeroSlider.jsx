@@ -63,18 +63,18 @@ const HeroSlider = () => {
           swiperRef.current = swiper;
         }}
       >
-        {sliderData.map((item) => (
+        {sliderData.map((item, index) => (
           <SwiperSlide key={item.id}>
             <div className="ak-hero ak-style1 slide-inner">
               <img
                 src={item.img}
                 className="ak-hero-bg ak-bg object-cover"
                 alt="..."
-                loading="eager"
-                fetchPriority="high"
+                loading={index === 0 ? "eager" : "lazy"}
+                fetchPriority={index === 0 ? "high" : "auto"}
                 decoding="async"
               />
-              <div className="container">
+            <div className="container">
                 <div className="hero-slider-info">
                   <div className="slider-info">
                     <div className="hero-title">
