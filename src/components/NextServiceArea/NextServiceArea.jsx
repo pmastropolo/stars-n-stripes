@@ -8,7 +8,7 @@ const NextServiceArea = () => {
   if (index === -1) return null;
   const next = serviceAreas[(index + 1) % serviceAreas.length];
   return (
-    <div className="text-center mt-12">
+    <div className="text-center mt-5">
       <Link to={`/service-areas/${next.slug}`} className="common-btn">
         Next: {next.title}
       </Link>
