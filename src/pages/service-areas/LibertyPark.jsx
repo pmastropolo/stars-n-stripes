@@ -54,7 +54,7 @@ const LibertyPark = () => {
       />
       <CommonPageHero title={"Liberty Park, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Liberty Park is a gated community with high-end vehicle owners who demand exceptional quality.
             Our shop provides the premium restoration and customization services they expect.

@@ -54,7 +54,7 @@ const Fultondale = () => {
       />
       <CommonPageHero title={"Fultondale, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Fultondale is convenient for north Birmingham restorers looking for a trusted shop.
             We provide the full range of services to keep their projects moving forward.

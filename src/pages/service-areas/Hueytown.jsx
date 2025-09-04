@@ -54,7 +54,7 @@ const Hueytown = () => {
       />
       <CommonPageHero title={"Hueytown, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Hueytown is just a short drive from our Bessemer facility,
             giving local owners access to expert restoration and custom services.

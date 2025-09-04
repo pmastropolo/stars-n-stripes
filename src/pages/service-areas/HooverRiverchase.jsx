@@ -54,7 +54,7 @@ const HooverRiverchase = () => {
       />
       <CommonPageHero title={"Hoover, AL (Riverchase)"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Hoover's Riverchase area features higher-income homeowners who invest in their vehicles.
             We provide restoration and customization services that meet their expectations.

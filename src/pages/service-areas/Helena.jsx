@@ -54,7 +54,7 @@ const Helena = () => {
       />
       <CommonPageHero title={"Helena, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Helena is popular with families and has a strong classic car culture.
             We help local enthusiasts keep their vehicles on the road with expert restoration and custom upgrades.

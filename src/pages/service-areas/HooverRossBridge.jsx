@@ -54,7 +54,7 @@ const HooverRossBridge = () => {
       />
       <CommonPageHero title={"Hoover, AL (Ross Bridge)"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Ross Bridge is a sprawling golf resort community where many
             households own multiple vehicles. We help keep these collections in

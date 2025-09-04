@@ -54,7 +54,7 @@ const LakeView = () => {
       />
       <CommonPageHero title={"Lake View, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Lake View is popular among hobbyist car owners with the space to tackle big projects.
             We help turn those projects into finished builds with professional-grade results.

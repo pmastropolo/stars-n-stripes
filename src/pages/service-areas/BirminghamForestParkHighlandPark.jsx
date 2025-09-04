@@ -54,7 +54,7 @@ const BirminghamForestParkHighlandPark = () => {
       />
       <CommonPageHero title={"Birmingham, AL (Forest Park & Highland Park)"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Forest Park and Highland Park are historic Birmingham neighborhoods
             where restoring vintage cars is part of the lifestyle. Our shop

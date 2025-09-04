@@ -57,7 +57,7 @@ const DunnavantValleyShoalCreekValley = () => {
       />
       <CommonPageHero title={"Dunnavant Valley & Shoal Creek Valley, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Dunnavant Valley and Shoal Creek Valley offer space for serious car
             projects. Enthusiasts here seek top-tier restorations and bespoke

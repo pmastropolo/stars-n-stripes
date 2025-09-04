@@ -54,7 +54,7 @@ const BirminghamOverTheMountain = () => {
       />
       <CommonPageHero title={"Birmingham, AL (Over the Mountain)"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Birmingham's Over the Mountain area includes affluent communities that demand premium automotive care.
             We provide high-end restorations and performance upgrades tailored to these neighborhoods.

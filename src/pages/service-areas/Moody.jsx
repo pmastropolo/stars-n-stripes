@@ -54,7 +54,7 @@ const Moody = () => {
       />
       <CommonPageHero title={"Moody, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Moody is a fast-growing area east of Birmingham where car hobbyists
             and truck owners look for quality upgrades. Our shop offers

@@ -54,7 +54,7 @@ const IndianSpringsVillage = () => {
       />
       <CommonPageHero title={"Indian Springs Village, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Indian Springs Village is a small but affluent community where
             residents pursue custom builds and restorations with a personal

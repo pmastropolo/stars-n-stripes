@@ -54,7 +54,7 @@ const BirminghamSouthside = () => {
       />
       <CommonPageHero title={"Birmingham, AL (Southside)"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Birmingham's Southside covers UAB professionals and downtown collectors who expect high standards.
             Our shop delivers precision restorations and custom builds to match their needs.

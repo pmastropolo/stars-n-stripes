@@ -54,7 +54,7 @@ const HooverThePreserve = () => {
       />
       <CommonPageHero title={"Hoover, AL (The Preserve)"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             The Preserve is a master-planned Hoover community with residents who
             value quality craftsmanship. We provide the expertise needed to keep

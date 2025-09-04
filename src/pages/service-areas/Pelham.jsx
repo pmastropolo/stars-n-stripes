@@ -54,7 +54,7 @@ const Pelham = () => {
       />
       <CommonPageHero title={"Pelham, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Pelham has a vibrant mix of restoration hobbyists and performance car owners.
             Our team supports both groups with expert fabrication, tuning, and preservation services.

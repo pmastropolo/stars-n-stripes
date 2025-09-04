@@ -54,7 +54,7 @@ const McCalla = () => {
       />
       <CommonPageHero title={"McCalla, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             McCalla hosts many garages and hobby shops, creating a strong market for truck and custom builds.
             Our technicians deliver the workmanship local builders demand.

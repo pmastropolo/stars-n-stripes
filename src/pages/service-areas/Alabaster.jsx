@@ -54,7 +54,7 @@ const Alabaster = () => {
       />
       <CommonPageHero title={"Alabaster, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Alabaster is a growing market and an easy drive to our shop.
             We provide full-service restoration and custom work for enthusiasts throughout the area.

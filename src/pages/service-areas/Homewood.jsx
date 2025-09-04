@@ -54,7 +54,7 @@ const Homewood = () => {
       />
       <CommonPageHero title={"Homewood, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Homewood is home to many young professionals and passionate collectors. We
             offer custom builds and restoration solutions that match the style and

@@ -54,7 +54,7 @@ const BirminghamAvondaleHeights = () => {
       />
       <CommonPageHero title={"Birmingham, AL (Avondale Heights)"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Avondale Heights carries its own flavor of Birmingham&apos;s vintage
             scene. Residents keep classic rides alive with thoughtful upgrades

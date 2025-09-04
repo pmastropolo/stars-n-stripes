@@ -54,7 +54,7 @@ const VestaviaHills = () => {
       />
       <CommonPageHero title={"Vestavia Hills, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Vestavia Hills is an affluent suburb of Birmingham with a strong demand for
             collector car restoration. Our team delivers high-end mechanical work,

@@ -54,7 +54,7 @@ const Trussville = () => {
       />
       <CommonPageHero title={"Trussville, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Trussville is an affluent and growing community, making it ideal for high-performance upgrades and detailed restorations.
             Our shop provides the expertise local enthusiasts demand.

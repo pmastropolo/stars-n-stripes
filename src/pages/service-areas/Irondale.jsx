@@ -54,7 +54,7 @@ const Irondale = () => {
       />
       <CommonPageHero title={"Irondale, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Irondale provides easy access for east Birmingham car enthusiasts seeking quality restoration work.
             Our shop is ready to handle everything from simple repairs to complete builds.

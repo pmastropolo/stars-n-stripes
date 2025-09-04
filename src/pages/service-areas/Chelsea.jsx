@@ -54,7 +54,7 @@ const Chelsea = () => {
       />
       <CommonPageHero title={"Chelsea, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Chelsea is rapidly growing with new custom homes and incoming car enthusiasts.
             We support this expanding community with expert restoration, performance

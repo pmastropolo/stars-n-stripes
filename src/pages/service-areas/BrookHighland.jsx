@@ -54,7 +54,7 @@ const BrookHighland = () => {
       />
       <CommonPageHero title={"Brook Highland, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Brook Highland blends higher-income living with a love for trucks and
             Jeeps. Our team delivers the lift kits, custom builds, and

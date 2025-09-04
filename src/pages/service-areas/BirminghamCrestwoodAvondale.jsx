@@ -54,7 +54,7 @@ const BirminghamCrestwoodAvondale = () => {
       />
       <CommonPageHero title={"Birmingham, AL (Crestwood & Avondale)"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Birmingham's Crestwood and Avondale neighborhoods are home to a growing population of younger car enthusiasts.
             We provide the custom builds and restorations that fuel their passion.

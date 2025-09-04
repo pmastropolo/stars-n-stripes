@@ -54,7 +54,7 @@ const ShoalCreek = () => {
       />
       <CommonPageHero title={"Shoal Creek, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Shoal Creek is an ultra-upscale community where exotic and luxury
             car owners expect meticulous attention to detail. Our craftsmen

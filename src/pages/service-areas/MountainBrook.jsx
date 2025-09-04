@@ -54,7 +54,7 @@ const MountainBrook = () => {
       />
       <CommonPageHero title={"Mountain Brook, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Mountain Brook is among the wealthiest areas in Alabama, making it ideal for
             premium restoration work and bespoke custom builds. We cater to clients who

@@ -54,7 +54,7 @@ const MeadowbrookInverness = () => {
       />
       <CommonPageHero title={"Meadowbrook & Inverness, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Meadowbrook and Inverness are popular corridors for Birmingham
             commuters. Many garages here house project cars and weekend toys

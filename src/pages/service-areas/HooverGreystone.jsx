@@ -54,7 +54,7 @@ const HooverGreystone = () => {
       />
       <CommonPageHero title={"Hoover, AL (Greystone)"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Hoover&apos;s Greystone area is known for its custom homes and luxury vehicles.
             We provide tailored restoration and performance services that match the high

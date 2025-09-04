@@ -54,7 +54,7 @@ const Bessemer = () => {
       />
       <CommonPageHero title={"Bessemer, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Bessemer is home to our shop, making it easy for local classic car
             owners to access expert restoration services.

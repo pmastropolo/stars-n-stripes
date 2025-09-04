@@ -54,7 +54,7 @@ const Leeds = () => {
       />
       <CommonPageHero title={"Leeds, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Leeds is home to Barber Motorsports Park, attracting racing and
             performance enthusiasts from across the region. We support these

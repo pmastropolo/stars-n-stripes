@@ -54,7 +54,7 @@ const PleasantGrove = () => {
       />
       <CommonPageHero title={"Pleasant Grove, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Pleasant Grove is close to our shop and home to many middle and upper-middle class car owners.
             We offer convenient, high-quality restoration services for the community.

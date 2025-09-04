@@ -54,7 +54,7 @@ const Gardendale = () => {
       />
       <CommonPageHero title={"Gardendale, AL"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Gardendale hosts active classic car clubs that appreciate quality workmanship.
             We offer trusted restoration and customization to keep club vehicles in top shape.

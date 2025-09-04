@@ -54,7 +54,7 @@ const BirminghamFivePointsSouth = () => {
       />
       <CommonPageHero title={"Birmingham, AL (Five Points South)"} />
       <section className="py-80">
-        <div className="container space-y-6">
+        <div className="container space-y-8 leading-relaxed">
           <p>
             Five Points South blends nightlife and car culture. Young
             professionals bring their rides to us for performance tuning,
