@@ -100,6 +100,58 @@ const ServiceAreas = () => {
             <li>
               <Link to="/service-areas/trussville-al">Trussville, AL</Link>
             </li>
+            <li>
+              <Link to="/service-areas/birmingham-al-forest-park-highland-park">
+                Birmingham, AL (Forest Park &amp; Highland Park)
+              </Link>
+            </li>
+            <li>
+              <Link to="/service-areas/birmingham-al-five-points-south">
+                Birmingham, AL (Five Points South)
+              </Link>
+            </li>
+            <li>
+              <Link to="/service-areas/birmingham-al-avondale-heights">
+                Birmingham, AL (Avondale Heights)
+              </Link>
+            </li>
+            <li>
+              <Link to="/service-areas/shoal-creek-al">Shoal Creek, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/hoover-al-the-preserve">
+                Hoover, AL (The Preserve)
+              </Link>
+            </li>
+            <li>
+              <Link to="/service-areas/hoover-al-ross-bridge">
+                Hoover, AL (Ross Bridge)
+              </Link>
+            </li>
+            <li>
+              <Link to="/service-areas/meadowbrook-inverness-al">
+                Meadowbrook &amp; Inverness, AL
+              </Link>
+            </li>
+            <li>
+              <Link to="/service-areas/leeds-al">Leeds, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/moody-al">Moody, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/brook-highland-al">Brook Highland, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/indian-springs-village-al">
+                Indian Springs Village, AL
+              </Link>
+            </li>
+            <li>
+              <Link to="/service-areas/dunnavant-valley-shoal-creek-valley">
+                Dunnavant Valley &amp; Shoal Creek Valley, AL
+              </Link>
+            </li>
           </ul>
         </div>
       </section>

@@ -1,4 +1,4 @@
-import React, { useEffect, lazy, Suspense } from "react";
+import { useEffect, lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import AOS from "aos";
 
@@ -38,6 +38,36 @@ const McCalla = lazy(() => import("./pages/service-areas/McCalla"));
 const Pelham = lazy(() => import("./pages/service-areas/Pelham"));
 const PleasantGrove = lazy(() => import("./pages/service-areas/PleasantGrove"));
 const Trussville = lazy(() => import("./pages/service-areas/Trussville"));
+const BirminghamForestParkHighlandPark = lazy(() =>
+  import("./pages/service-areas/BirminghamForestParkHighlandPark")
+);
+const BirminghamFivePointsSouth = lazy(() =>
+  import("./pages/service-areas/BirminghamFivePointsSouth")
+);
+const BirminghamAvondaleHeights = lazy(() =>
+  import("./pages/service-areas/BirminghamAvondaleHeights")
+);
+const ShoalCreek = lazy(() => import("./pages/service-areas/ShoalCreek"));
+const HooverThePreserve = lazy(() =>
+  import("./pages/service-areas/HooverThePreserve")
+);
+const HooverRossBridge = lazy(() =>
+  import("./pages/service-areas/HooverRossBridge")
+);
+const MeadowbrookInverness = lazy(() =>
+  import("./pages/service-areas/MeadowbrookInverness")
+);
+const Leeds = lazy(() => import("./pages/service-areas/Leeds"));
+const Moody = lazy(() => import("./pages/service-areas/Moody"));
+const BrookHighland = lazy(() =>
+  import("./pages/service-areas/BrookHighland")
+);
+const IndianSpringsVillage = lazy(() =>
+  import("./pages/service-areas/IndianSpringsVillage")
+);
+const DunnavantValleyShoalCreekValley = lazy(() =>
+  import("./pages/service-areas/DunnavantValleyShoalCreekValley")
+);
 
 export default function App() {
   useEffect(() => {
@@ -137,6 +167,48 @@ export default function App() {
           <Route
             path="/service-areas/trussville-al"
             element={<Trussville />}
+          />
+          <Route
+            path="/service-areas/birmingham-al-forest-park-highland-park"
+            element={<BirminghamForestParkHighlandPark />}
+          />
+          <Route
+            path="/service-areas/birmingham-al-five-points-south"
+            element={<BirminghamFivePointsSouth />}
+          />
+          <Route
+            path="/service-areas/birmingham-al-avondale-heights"
+            element={<BirminghamAvondaleHeights />}
+          />
+          <Route
+            path="/service-areas/shoal-creek-al"
+            element={<ShoalCreek />}
+          />
+          <Route
+            path="/service-areas/hoover-al-the-preserve"
+            element={<HooverThePreserve />}
+          />
+          <Route
+            path="/service-areas/hoover-al-ross-bridge"
+            element={<HooverRossBridge />}
+          />
+          <Route
+            path="/service-areas/meadowbrook-inverness-al"
+            element={<MeadowbrookInverness />}
+          />
+          <Route path="/service-areas/leeds-al" element={<Leeds />} />
+          <Route path="/service-areas/moody-al" element={<Moody />} />
+          <Route
+            path="/service-areas/brook-highland-al"
+            element={<BrookHighland />}
+          />
+          <Route
+            path="/service-areas/indian-springs-village-al"
+            element={<IndianSpringsVillage />}
+          />
+          <Route
+            path="/service-areas/dunnavant-valley-shoal-creek-valley"
+            element={<DunnavantValleyShoalCreekValley />}
           />
           <Route path="/faq" element={<Faq />} />
           <Route path="/gallery" element={<Gallery />} />
