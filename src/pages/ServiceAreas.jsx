@@ -8,8 +8,8 @@ const ServiceAreas = () => {
     <>
       <SEO
         title="Service Areas | Stars & Stripes Automotive"
-        description="Stars & Stripes Automotive serves Vestavia Hills, Mountain Brook, Hoover, Homewood, Chelsea, and surrounding Alabama communities."
-        keywords="Vestavia Hills car restoration, Mountain Brook auto services, Hoover Greystone custom cars, Homewood collector builds, Chelsea automotive"
+        description="Stars & Stripes Automotive serves Vestavia Hills, Mountain Brook, Hoover, Homewood, Chelsea, and surrounding Alabama communities like Helena, Pelham, and Alabaster."
+        keywords="Vestavia Hills car restoration, Mountain Brook auto services, Hoover Greystone custom cars, Homewood collector builds, Chelsea automotive, Helena car restoration, Pelham performance upgrades, Alabaster custom cars, Trussville performance upgrades, Gardendale classic car restoration"
         canonical="https://starsnstripesautomotive.com/service-areas"
         openGraph={{
           title: "Service Areas | Stars & Stripes Automotive",
@@ -54,6 +54,51 @@ const ServiceAreas = () => {
             </li>
             <li>
               <Link to="/service-areas/chelsea-al">Chelsea, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/alabaster-al">Alabaster, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/birmingham-al-southside">Birmingham, AL (Southside)</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/birmingham-al-crestwood-avondale">Birmingham, AL (Crestwood / Avondale)</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/birmingham-al-over-the-mountain">Birmingham, AL (Over the Mountain)</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/fultondale-al">Fultondale, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/gardendale-al">Gardendale, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/helena-al">Helena, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/hoover-al-riverchase">Hoover, AL (Riverchase)</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/irondale-al">Irondale, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/lake-view-al">Lake View, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/liberty-park-al">Liberty Park, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/mccalla-al">McCalla, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/pelham-al">Pelham, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/pleasant-grove-al">Pleasant Grove, AL</Link>
+            </li>
+            <li>
+              <Link to="/service-areas/trussville-al">Trussville, AL</Link>
             </li>
           </ul>
         </div>

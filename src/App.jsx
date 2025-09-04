@@ -23,6 +23,21 @@ const MountainBrook = lazy(() => import("./pages/service-areas/MountainBrook"));
 const HooverGreystone = lazy(() => import("./pages/service-areas/HooverGreystone"));
 const Homewood = lazy(() => import("./pages/service-areas/Homewood"));
 const Chelsea = lazy(() => import("./pages/service-areas/Chelsea"));
+const Alabaster = lazy(() => import("./pages/service-areas/Alabaster"));
+const BirminghamSouthside = lazy(() => import("./pages/service-areas/BirminghamSouthside"));
+const BirminghamCrestwoodAvondale = lazy(() => import("./pages/service-areas/BirminghamCrestwoodAvondale"));
+const BirminghamOverTheMountain = lazy(() => import("./pages/service-areas/BirminghamOverTheMountain"));
+const Fultondale = lazy(() => import("./pages/service-areas/Fultondale"));
+const Gardendale = lazy(() => import("./pages/service-areas/Gardendale"));
+const Helena = lazy(() => import("./pages/service-areas/Helena"));
+const HooverRiverchase = lazy(() => import("./pages/service-areas/HooverRiverchase"));
+const Irondale = lazy(() => import("./pages/service-areas/Irondale"));
+const LakeView = lazy(() => import("./pages/service-areas/LakeView"));
+const LibertyPark = lazy(() => import("./pages/service-areas/LibertyPark"));
+const McCalla = lazy(() => import("./pages/service-areas/McCalla"));
+const Pelham = lazy(() => import("./pages/service-areas/Pelham"));
+const PleasantGrove = lazy(() => import("./pages/service-areas/PleasantGrove"));
+const Trussville = lazy(() => import("./pages/service-areas/Trussville"));
 
 export default function App() {
   useEffect(() => {
@@ -62,6 +77,66 @@ export default function App() {
           <Route
             path="/service-areas/chelsea-al"
             element={<Chelsea />}
+          />
+          <Route
+            path="/service-areas/alabaster-al"
+            element={<Alabaster />}
+          />
+          <Route
+            path="/service-areas/birmingham-al-southside"
+            element={<BirminghamSouthside />}
+          />
+          <Route
+            path="/service-areas/birmingham-al-crestwood-avondale"
+            element={<BirminghamCrestwoodAvondale />}
+          />
+          <Route
+            path="/service-areas/birmingham-al-over-the-mountain"
+            element={<BirminghamOverTheMountain />}
+          />
+          <Route
+            path="/service-areas/fultondale-al"
+            element={<Fultondale />}
+          />
+          <Route
+            path="/service-areas/gardendale-al"
+            element={<Gardendale />}
+          />
+          <Route
+            path="/service-areas/helena-al"
+            element={<Helena />}
+          />
+          <Route
+            path="/service-areas/hoover-al-riverchase"
+            element={<HooverRiverchase />}
+          />
+          <Route
+            path="/service-areas/irondale-al"
+            element={<Irondale />}
+          />
+          <Route
+            path="/service-areas/lake-view-al"
+            element={<LakeView />}
+          />
+          <Route
+            path="/service-areas/liberty-park-al"
+            element={<LibertyPark />}
+          />
+          <Route
+            path="/service-areas/mccalla-al"
+            element={<McCalla />}
+          />
+          <Route
+            path="/service-areas/pelham-al"
+            element={<Pelham />}
+          />
+          <Route
+            path="/service-areas/pleasant-grove-al"
+            element={<PleasantGrove />}
+          />
+          <Route
+            path="/service-areas/trussville-al"
+            element={<Trussville />}
           />
           <Route path="/faq" element={<Faq />} />
           <Route path="/gallery" element={<Gallery />} />
