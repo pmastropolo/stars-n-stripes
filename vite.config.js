@@ -8,6 +8,18 @@ import { dirname, resolve } from "path";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
+// Plugin to load generated CSS asynchronously to avoid render blocking
+const asyncCssPlugin = () => ({
+  name: "async-css",
+  enforce: "post",
+  transformIndexHtml(html) {
+    return html.replace(
+      /<link rel="stylesheet"([^>]*)href="(\/[^"]+)"([^>]*)>/,
+      '<link rel="preload"$1href="$2"$3 as="style" onload="this.onload=null;this.rel=\'stylesheet\'"><noscript><link rel="stylesheet"$1href="$2"$3></noscript>'
+    );
+  },
+});
+
 // Load service details to generate individual service routes
 const serviceDetails = JSON.parse(
   readFileSync(
@@ -56,6 +68,7 @@ const allRoutes = Array.from(
 export default defineConfig({
   plugins: [
     react(),
+    asyncCssPlugin(),
     sitemap({
       hostname: "https://starsnstripesautomotive.com", // Your website's URL
       outDir: "dist", // Where to generate sitemap.xml
