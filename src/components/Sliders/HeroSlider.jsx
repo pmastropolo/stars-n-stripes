@@ -1,9 +1,8 @@
 import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Parallax, Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/parallax";
 import { ButtonCommon } from "../Button/Button";
 import { Link } from "react-router-dom";
 
@@ -50,7 +49,6 @@ const HeroSlider = () => {
         speed={1000}
         loop={true}
         slidesPerView={"auto"}
-        parallax={true}
         pagination={{
           clickable: true,
           el: ".hero-swiper-pagination",
@@ -58,7 +56,7 @@ const HeroSlider = () => {
             return '<p className="' + className + '">' + (index + 1) + "</p>";
           },
         }}
-        modules={[Parallax, Pagination]}
+        modules={[Pagination]}
         onSwiper={(swiper) => {
           swiperRef.current = swiper;
         }}
@@ -78,16 +76,10 @@ const HeroSlider = () => {
                 <div className="hero-slider-info">
                   <div className="slider-info">
                     <div className="hero-title">
-                      <h1
-                        className="hero-main-title"
-                        data-swiper-parallax="300"
-                      >
+                      <h1 className="hero-main-title">
                         {item.title}
                       </h1>
-                      <h1
-                        className="hero-main-title-1 style-2"
-                        data-swiper-parallax="100"
-                      >
+                      <h1 className="hero-main-title-1 style-2">
                         {item.maintitle}
                       </h1>
                       <p className="mini-title">
@@ -95,7 +87,7 @@ const HeroSlider = () => {
                       </p>
                     </div>
                     <div className="ak-height-45 ak-height-lg-30"></div>
-                    <div data-swiper-parallax="300">
+                    <div>
                       <ButtonCommon to={item.url}>APPOINTMENT</ButtonCommon>
                     </div>
                   </div>
