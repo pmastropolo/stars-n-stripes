@@ -38,8 +38,7 @@ const Header = () => {
     if (!ticking.current) {
       ticking.current = true;
       window.requestAnimationFrame(() => {
-        const windowTop =
-          window.pageYOffset || document.documentElement.scrollTop;
+        const windowTop = window.scrollY;
         const headerHeight = headerHeightRef.current;
 
         if (windowTop >= headerHeight) {

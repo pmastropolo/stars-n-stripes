@@ -13,14 +13,13 @@ const ScrollUpButton = () => {
   }, []);
 
   const handleScroll = useCallback(() => {
-    const scrollPosition = window.scrollY;
-
     if (!ticking.current) {
+      ticking.current = true;
       window.requestAnimationFrame(() => {
+        const scrollPosition = window.scrollY;
         setIsVisible(scrollPosition >= 350);
         ticking.current = false;
       });
-      ticking.current = true;
     }
   }, []);
 
