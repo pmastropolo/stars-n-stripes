@@ -44,7 +44,7 @@ const sliderData = [
 const HeroSlider = () => {
   const swiperRef = useRef(null);
   return (
-    <section className="ak-slider ak-slider-hero-1">
+    <div className="ak-slider ak-slider-hero-1">
       <Swiper
         speed={1000}
         loop={true}
@@ -204,7 +204,7 @@ const HeroSlider = () => {
 
 
       </div>
-    </section>
+    </div>
   );
 };
 
