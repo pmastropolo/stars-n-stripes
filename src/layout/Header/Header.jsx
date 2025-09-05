@@ -1,9 +1,8 @@
-import React, {
+import {
   useRef,
   useState,
   useCallback,
   useMemo,
-  useLayoutEffect,
   useEffect,
 } from "react";
 import classNames from "classnames";
@@ -19,20 +18,24 @@ const Header = () => {
   const lastScrollTop = useRef(0);
   const ticking = useRef(false);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const header = headerRef.current;
     if (!header) return;
 
     const updateHeight = () => {
-      headerHeightRef.current = header.getBoundingClientRect().height + 30;
+      // Defer reading layout information to the next frame
+      // to avoid forced synchronous reflow on layout changes.
+      window.requestAnimationFrame(() => {
+        headerHeightRef.current = header.offsetHeight + 30;
+      });
     };
 
     updateHeight();
 
-    const resizeObserver = new ResizeObserver(updateHeight);
-    resizeObserver.observe(header);
+    const opts = { passive: true };
+    window.addEventListener("resize", updateHeight, opts);
 
-    return () => resizeObserver.disconnect();
+    return () => window.removeEventListener("resize", updateHeight, opts);
   }, []);
 
   const handleScroll = useCallback(() => {
