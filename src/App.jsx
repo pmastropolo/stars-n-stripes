@@ -74,8 +74,15 @@ const DunnavantValleyShoalCreekValley = lazy(() =>
 export default function App() {
   useEffect(() => {
     import("aos/dist/aos.css").then(() => {
-      AOS.init();
-      AOS.refresh();
+      // AOS performs heavy DOM measurements which can trigger
+      // forced synchronous reflows on scroll. Disable it on small
+      // screens where the animations are less critical to improve
+      // mobile performance.
+      const isMobile = window.matchMedia("(max-width: 767px)").matches;
+      AOS.init({ disable: isMobile });
+      if (!isMobile) {
+        AOS.refresh();
+      }
     });
   }, []);
   return (
