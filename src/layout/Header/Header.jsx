@@ -22,20 +22,16 @@ const Header = () => {
     const header = headerRef.current;
     if (!header) return;
 
-    const updateHeight = () => {
-      // Defer reading layout information to the next frame
-      // to avoid forced synchronous reflow on layout changes.
-      window.requestAnimationFrame(() => {
-        headerHeightRef.current = header.offsetHeight + 30;
-      });
-    };
+    const observer = new ResizeObserver((entries) => {
+      const entry = entries[0];
+      // Use ResizeObserver's measurements instead of querying layout
+      // properties to avoid forced synchronous reflows.
+      headerHeightRef.current = entry.contentRect.height + 30;
+    });
 
-    updateHeight();
+    observer.observe(header);
 
-    const opts = { passive: true };
-    window.addEventListener("resize", updateHeight, opts);
-
-    return () => window.removeEventListener("resize", updateHeight, opts);
+    return () => observer.disconnect();
   }, []);
 
   const handleScroll = useCallback(() => {
