@@ -1,6 +1,7 @@
 import { useEffect, lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import AOS from "aos";
+import "aos/dist/aos.css"; // Preload AOS styles with main bundle
 
 // Main layout and default landing page are loaded eagerly to avoid
 // additional network request chains during initial render.
@@ -73,17 +74,15 @@ const DunnavantValleyShoalCreekValley = lazy(() =>
 
 export default function App() {
   useEffect(() => {
-    import("aos/dist/aos.css").then(() => {
-      // AOS performs heavy DOM measurements which can trigger
-      // forced synchronous reflows on scroll. Disable it on small
-      // screens where the animations are less critical to improve
-      // mobile performance.
-      const isMobile = window.matchMedia("(max-width: 767px)").matches;
-      AOS.init({ disable: isMobile });
-      if (!isMobile) {
-        AOS.refresh();
-      }
-    });
+    // AOS performs heavy DOM measurements which can trigger
+    // forced synchronous reflows on scroll. Disable it on small
+    // screens where the animations are less critical to improve
+    // mobile performance.
+    const isMobile = window.matchMedia("(max-width: 767px)").matches;
+    AOS.init({ disable: isMobile });
+    if (!isMobile) {
+      AOS.refresh();
+    }
   }, []);
   return (
     <Suspense fallback={<div>Loading...</div>}>
