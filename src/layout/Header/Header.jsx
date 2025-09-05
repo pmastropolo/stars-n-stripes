@@ -39,10 +39,11 @@ const Header = () => {
   }, []);
 
   const handleScroll = useCallback(() => {
-    const windowTop = window.pageYOffset || document.documentElement.scrollTop;
-
     if (!ticking.current) {
+      ticking.current = true;
       window.requestAnimationFrame(() => {
+        const windowTop =
+          window.pageYOffset || document.documentElement.scrollTop;
         const headerHeight = headerHeightRef.current;
 
         if (windowTop >= headerHeight) {
@@ -63,7 +64,6 @@ const Header = () => {
         lastScrollTop.current = windowTop;
         ticking.current = false;
       });
-      ticking.current = true;
     }
   }, [isSticky]);
 
