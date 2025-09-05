@@ -44,7 +44,16 @@ const ChooseUs = () => {
             data-aos="fade-up"
             data-aos-delay="150"
           >
-            <img src={img} alt="..." loading="lazy" decoding="async" />
+            <img
+              src={img}
+              alt="..."
+              width="607"
+              height="656"
+              sizes="(max-width: 768px) 100vw, 607px"
+              srcSet={`${img} 607w`}
+              loading="lazy"
+              decoding="async"
+            />
             <img
               className="circle-img"
               src="/assets/img/chooseus/circle.png"

@@ -3113,6 +3113,15 @@ kbd {
   line-height: 27px;
 }
 
+@media screen and (max-width: 768px) {
+  .ak-hero.ak-style1 {
+    min-height: 60vh;
+  }
+  .ak-hero.ak-style1 .ak-hero-bg {
+    height: 100%;
+  }
+}
+
 .hero-contact-info {
   position: absolute;
   top: 90px;
@@ -4011,6 +4020,10 @@ kbd {
 .choose-us-contain .choose-us-img {
   max-width: 605px;
   position: relative;
+}
+.choose-us-contain .choose-us-img img {
+  width: 100%;
+  height: auto;
 }
 .choose-us-contain .choose-us-img .circle-img {
   position: absolute;

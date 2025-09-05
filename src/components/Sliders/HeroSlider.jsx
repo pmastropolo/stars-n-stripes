@@ -68,6 +68,10 @@ const HeroSlider = () => {
                 src={item.img}
                 className="ak-hero-bg ak-bg object-cover"
                 alt="..."
+                width="1920"
+                height="1080"
+                sizes="100vw"
+                srcSet={`${item.img} 1920w`}
                 loading={index === 0 ? "eager" : "lazy"}
                 fetchPriority={index === 0 ? "high" : "auto"}
                 decoding="async"
