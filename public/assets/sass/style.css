@@ -2854,7 +2854,8 @@ kbd {
 .common-btn {
   padding: 20px 45px;
   display: inline-block;
-  background-color: var(--primary-color);
+  /* Darkened to meet WCAG contrast requirements */
+  background-color: #c62828;
   color: var(--white-color);
   font-size: 20px;
   font-weight: 500;
