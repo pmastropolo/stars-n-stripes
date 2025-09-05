@@ -1,12 +1,15 @@
-import { useEffect } from "react";
+import { useEffect, lazy, Suspense } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Header from "./Header/Header";
 import { pageScrollUp } from "../helper/main";
 import ScrollUpButton from "../components/ScrollUp/Scrollup";
-import Footer from "./Footer/Footer";
+
+// Lazily load the footer to reduce initial bundle size
+const Footer = lazy(() => import("./Footer/Footer"));
 
 const Main = () => {
   const { pathname } = useLocation();
+  
 
   useEffect(() => {
     pageScrollUp();
@@ -16,7 +19,9 @@ const Main = () => {
     <>
       <Header />
       <Outlet />
-      <Footer />
+     <Suspense fallback={null}>
+        <Footer />
+      </Suspense>
       <ScrollUpButton />
     </>
   );
