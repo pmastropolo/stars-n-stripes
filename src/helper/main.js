@@ -1,6 +1,11 @@
-import SplitType from "split-type";
+export async function hoverTextAnimation(element) {
+  // Skip heavy text-splitting logic on small screens to avoid
+  // unnecessary layout work during initial load.
+  const isMobile = window.matchMedia("(max-width: 767px)").matches;
+  if (isMobile) return;
 
-export function hoverTextAnimation(element) {
+  const { default: SplitType } = await import("split-type");
+
   const isBlackText = element.classList.contains("black");
   const isWhiteText = element.classList.contains("white");
   const splitType = "words chars";

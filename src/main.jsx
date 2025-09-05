@@ -13,4 +13,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </BrowserRouter>
   </React.StrictMode>
 );
-window.addEventListener("load", loadAnalytics);
+
+// Defer analytics loading until the browser is idle so that
+// third‑party scripts do not compete for main‑thread time
+// during initial rendering.
+window.addEventListener("load", () => {
+  if ("requestIdleCallback" in window) {
+    requestIdleCallback(loadAnalytics);
+  } else {
+    setTimeout(loadAnalytics, 2000);
+  }
+});
